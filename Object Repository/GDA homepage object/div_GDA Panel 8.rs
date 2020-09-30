@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_GDA Panel 8</name>
+   <tag></tag>
+   <elementGuidId>94947c05-e55e-4d7a-ad24-fc721a1866b3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='panel-48464dac-ca9f-41eb-b30c-57bb94c1e74f']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#panel-48464dac-ca9f-41eb-b30c-57bb94c1e74f</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'panel-48464dac-ca9f-41eb-b30c-57bb94c1e74f' and (text() = 'JOIN THE GDA MARKETPLACEAll users on the GDA marketplace are vetted to ensure an ideal procurement environment. If you are interested in joining, please register your interest by completing the form below.INTEREST REGISTRATION FORM' or . = 'JOIN THE GDA MARKETPLACEAll users on the GDA marketplace are vetted to ensure an ideal procurement environment. If you are interested in joining, please register your interest by completing the form below.INTEREST REGISTRATION FORM')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>panel-48464dac-ca9f-41eb-b30c-57bb94c1e74f</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>section section-banner</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>JOIN THE GDA MARKETPLACEAll users on the GDA marketplace are vetted to ensure an ideal procurement environment. If you are interested in joining, please register your interest by completing the form below.INTEREST REGISTRATION FORM</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;panel-48464dac-ca9f-41eb-b30c-57bb94c1e74f&quot;)</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='panel-48464dac-ca9f-41eb-b30c-57bb94c1e74f']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='react_0HM3469BHU5MU']/div/div/div[17]/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='LEARN MORE'])[4]/following::div[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SELLER FAQs'])[1]/following::div[4]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[17]/div</value>
+   </webElementXpaths>
+</WebElementEntity>

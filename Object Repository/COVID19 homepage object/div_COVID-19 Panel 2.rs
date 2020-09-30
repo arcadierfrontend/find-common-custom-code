@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_COVID-19 Panel 2</name>
+   <tag></tag>
+   <elementGuidId>c711f509-4296-462c-8eef-185eb145716e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='panel-685af31d-3fb1-4e87-92bd-757e2ccb25a9_6464']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#panel-685af31d-3fb1-4e87-92bd-757e2ccb25a9_6464</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'panel-685af31d-3fb1-4e87-92bd-757e2ccb25a9_6464' and (text() = 'SEARCH Search through a centralised catalogue of COVID19 tests that have been independently &amp; FIND evaluated.FILTER Refine search results to suite your specifications, based on technical details or regulatory approvals.PROCURE Procure the products you want from the agencies you are part of using your available funding sources.' or . = 'SEARCH Search through a centralised catalogue of COVID19 tests that have been independently &amp; FIND evaluated.FILTER Refine search results to suite your specifications, based on technical details or regulatory approvals.PROCURE Procure the products you want from the agencies you are part of using your available funding sources.')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>container</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>panel-685af31d-3fb1-4e87-92bd-757e2ccb25a9_6464</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>SEARCH Search through a centralised catalogue of COVID19 tests that have been independently &amp; FIND evaluated.FILTER Refine search results to suite your specifications, based on technical details or regulatory approvals.PROCURE Procure the products you want from the agencies you are part of using your available funding sources.</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;panel-685af31d-3fb1-4e87-92bd-757e2ccb25a9_6464&quot;)</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='panel-685af31d-3fb1-4e87-92bd-757e2ccb25a9_6464']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='react_0HM3381N2O8PS']/div/div/div[5]/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='HOW COVID19 E-CATALOGUE CAN HELP YOU'])[1]/following::div[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='USD $100.00'])[1]/following::div[8]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div[5]/div</value>
+   </webElementXpaths>
+</WebElementEntity>

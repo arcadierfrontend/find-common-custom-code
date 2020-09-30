@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/COVID19 homepage object/div_COVID-19 Panel 2",
+      "brokenLocator": "//*[@id \u003d \u0027panel-685af31d-3fb1-4e87-92bd-757e2ccb25a9_6464\u0027 and (text() \u003d \u0027SEARCH Search through a centralised catalogue of COVID19 tests that have been independently \u0026 FIND evaluated.FILTER Refine search results to suite your specifications, based on technical details or regulatory approvals.PROCURE Procure the products you want from the agencies you are part of using your available funding sources.\u0027 or . \u003d \u0027SEARCH Search through a centralised catalogue of COVID19 tests that have been independently \u0026 FIND evaluated.FILTER Refine search results to suite your specifications, based on technical details or regulatory approvals.PROCURE Procure the products you want from the agencies you are part of using your available funding sources.\u0027)]",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027HOW COVID19 E-CATALOGUE CAN HELP YOU\u0027])[1]/following::div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20200930_091607/COVID19/20200930_091607/Object Repository/COVID19 homepage object/div_COVID-19 Panel 2_neighbor.png"
+    }
+  ]
+}

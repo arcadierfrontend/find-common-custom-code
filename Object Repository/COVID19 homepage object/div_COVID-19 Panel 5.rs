@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_COVID-19 Panel 5</name>
+   <tag></tag>
+   <elementGuidId>86e09314-1d7f-4f0a-972d-4db5fda19175</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='panel-69954104-a1b2-4e50-9afc-d52a625e2533']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#panel-69954104-a1b2-4e50-9afc-d52a625e2533</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'panel-69954104-a1b2-4e50-9afc-d52a625e2533' and (text() = 'FREQUENTLY ASKED QUESTIONSLearn more about COVID19 eCatalogue and how it works by visiting our FAQ page.GO TO FAQs' or . = 'FREQUENTLY ASKED QUESTIONSLearn more about COVID19 eCatalogue and how it works by visiting our FAQ page.GO TO FAQs')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>panel-69954104-a1b2-4e50-9afc-d52a625e2533</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>section section-banner</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>FREQUENTLY ASKED QUESTIONSLearn more about COVID19 eCatalogue and how it works by visiting our FAQ page.GO TO FAQs</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;panel-69954104-a1b2-4e50-9afc-d52a625e2533&quot;)</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='panel-69954104-a1b2-4e50-9afc-d52a625e2533']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='react_0HM3381N2O8PS']/div/div/div[8]/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='LEARN MORE'])[2]/following::div[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='DIAGNOSTICS EVALUATION PROCESS'])[1]/following::div[4]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[8]/div</value>
+   </webElementXpaths>
+</WebElementEntity>

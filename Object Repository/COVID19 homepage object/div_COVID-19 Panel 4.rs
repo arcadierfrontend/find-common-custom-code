@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_COVID-19 Panel 4</name>
+   <tag></tag>
+   <elementGuidId>c0abeb71-494c-4a3d-a788-01043b07d7ad</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='panel-9d48b271-cb99-485e-8984-b26105a9d409']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#panel-9d48b271-cb99-485e-8984-b26105a9d409</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'panel-9d48b271-cb99-485e-8984-b26105a9d409' and (text() = 'DIAGNOSTICS EVALUATION PROCESSEvaluations are an important aspect of ensuring that tests are accurately diagnosing those affected and those not. For all the items listed on COVID-19 eCatalogue, you are able to view the relevant evaluation by Independent or FIND laboratories.  You can learn more about FIND evaluations below.LEARN MORE' or . = 'DIAGNOSTICS EVALUATION PROCESSEvaluations are an important aspect of ensuring that tests are accurately diagnosing those affected and those not. For all the items listed on COVID-19 eCatalogue, you are able to view the relevant evaluation by Independent or FIND laboratories.  You can learn more about FIND evaluations below.LEARN MORE')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>panel-9d48b271-cb99-485e-8984-b26105a9d409</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>section section-banner</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>DIAGNOSTICS EVALUATION PROCESSEvaluations are an important aspect of ensuring that tests are accurately diagnosing those affected and those not. For all the items listed on COVID-19 eCatalogue, you are able to view the relevant evaluation by Independent or FIND laboratories.  You can learn more about FIND evaluations below.LEARN MORE</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;panel-9d48b271-cb99-485e-8984-b26105a9d409&quot;)</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//div[@id='panel-9d48b271-cb99-485e-8984-b26105a9d409']</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='react_0HM3381N2O8PS']/div/div/div[7]/div</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='TYPE OF TESTS AVAILABLE'])[1]/following::div[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='COVID-19 eCATALOGUE INFORMATION'])[1]/following::div[4]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[7]/div</value>
+   </webElementXpaths>
+</WebElementEntity>
