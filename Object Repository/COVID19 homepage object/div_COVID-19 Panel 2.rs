@@ -15,7 +15,7 @@
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@id = 'panel-685af31d-3fb1-4e87-92bd-757e2ccb25a9_6464' and (text() = 'SEARCH Search through a centralised catalogue of COVID19 tests that have been independently &amp; FIND evaluated.FILTER Refine search results to suite your specifications, based on technical details or regulatory approvals.PROCURE Procure the products you want from the agencies you are part of using your available funding sources.' or . = 'SEARCH Search through a centralised catalogue of COVID19 tests that have been independently &amp; FIND evaluated.FILTER Refine search results to suite your specifications, based on technical details or regulatory approvals.PROCURE Procure the products you want from the agencies you are part of using your available funding sources.')]</value>
+         <value>//div[4]/div/div/div/div[11]/div</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -35,25 +35,25 @@
       <value>container</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>id</name>
       <type>Main</type>
       <value>panel-685af31d-3fb1-4e87-92bd-757e2ccb25a9_6464</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
       <value>SEARCH Search through a centralised catalogue of COVID19 tests that have been independently &amp; FIND evaluated.FILTER Refine search results to suite your specifications, based on technical details or regulatory approvals.PROCURE Procure the products you want from the agencies you are part of using your available funding sources.</value>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;panel-685af31d-3fb1-4e87-92bd-757e2ccb25a9_6464&quot;)</value>
+      <value>//div[4]/div/div/div/div[11]/div</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>

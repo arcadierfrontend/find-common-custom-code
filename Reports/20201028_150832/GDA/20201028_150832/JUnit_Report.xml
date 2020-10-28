@@ -1,0 +1,493 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="GDA" time="213.512" tests="12" failures="0" errors="0">
+   <testsuite name="GDA" tests="12" failures="0" errors="0" time="213.512" timestamp="2020-10-28 15:08:43" hostname="Lexoter - DESKTOP-IJBB9BE" id="Test Suites/GDA">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="K:\\Work\\GitHub\\find-common-custom-code\\Reports\\20201028_150832\\GDA\\20201028_150832"/>
+         <property name="logFiles" value="K:\\Work\\GitHub\\find-common-custom-code\\Reports\\20201028_150832\\GDA\\20201028_150832\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Lexoter - DESKTOP-IJBB9BE"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.6.6.205"/>
+         <property name="browser" value="Firefox 81.0"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="e65edbe1-6291-4efa-9062-216a1ee93369"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/GDA/TC_UI_001" time="14.849" classname="Test Cases/GDA/TC_UI_001" status="PASSED">
+         <system-out><![CDATA[2020-10-28 15:08:43 - [TEST_CASE][PASSED] - Test Cases/GDA/TC_UI_001: Test Cases/GDA/TC_UI_001
+
+2020-10-28 15:08:43 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UTILITIES/Open Marketplace GDA"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UTILITIES/Open Marketplace GDA' successfully
+
+2020-10-28 15:08:44 - [TEST_CASE][PASSED] - Test Cases/UTILITIES/Open Marketplace GDA: Test Cases/UTILITIES/Open Marketplace GDA
+
+2020-10-28 15:08:44 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-28 15:08:44 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-10-28 15:08:44 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-28 15:08:48 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-28 15:08:48 - [TEST_STEP][PASSED] - navigateToUrl(otherurl): Navigate to 'https://gdastaging.test-arcadier.com/' successfully
+
+2020-10-28 15:08:57 - [MESSAGE][PASSED] - Navigate to 'https://gdastaging.test-arcadier.com/' successfully
+
+2020-10-28 15:08:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UTILITIES/Open Marketplace GDA' successfully
+
+2020-10-28 15:08:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("COVID19 homepage object/input_Search bar")): Object 'Object Repository/COVID19 homepage object/input_Search bar' is visible
+
+2020-10-28 15:08:58 - [MESSAGE][PASSED] - Object 'Object Repository/COVID19 homepage object/input_Search bar' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GDA/TC_UI_002" time="13.966" classname="Test Cases/GDA/TC_UI_002" status="PASSED">
+         <system-out><![CDATA[2020-10-28 15:08:58 - [TEST_CASE][PASSED] - Test Cases/GDA/TC_UI_002: Test Cases/GDA/TC_UI_002
+
+2020-10-28 15:08:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UTILITIES/Open Marketplace GDA"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UTILITIES/Open Marketplace GDA' successfully
+
+2020-10-28 15:08:58 - [TEST_CASE][PASSED] - Test Cases/UTILITIES/Open Marketplace GDA: Test Cases/UTILITIES/Open Marketplace GDA
+
+2020-10-28 15:08:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-28 15:08:58 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-10-28 15:08:59 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-10-28 15:08:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-28 15:09:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-28 15:09:02 - [TEST_STEP][PASSED] - navigateToUrl(otherurl): Navigate to 'https://gdastaging.test-arcadier.com/' successfully
+
+2020-10-28 15:09:11 - [MESSAGE][PASSED] - Navigate to 'https://gdastaging.test-arcadier.com/' successfully
+
+2020-10-28 15:09:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UTILITIES/Open Marketplace GDA' successfully
+
+2020-10-28 15:09:11 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("COVID19 homepage object/Be A Seller")): Object 'Object Repository/COVID19 homepage object/Be A Seller' is NOT visible
+
+2020-10-28 15:09:12 - [MESSAGE][PASSED] - Object 'Object Repository/COVID19 homepage object/Be A Seller' is NOT visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GDA/TC_UI_003" time="17.188" classname="Test Cases/GDA/TC_UI_003" status="PASSED">
+         <system-out><![CDATA[2020-10-28 15:09:12 - [TEST_CASE][PASSED] - Test Cases/GDA/TC_UI_003: Test Cases/GDA/TC_UI_003
+
+2020-10-28 15:09:12 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UTILITIES/Open Marketplace GDA"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UTILITIES/Open Marketplace GDA' successfully
+
+2020-10-28 15:09:12 - [TEST_CASE][PASSED] - Test Cases/UTILITIES/Open Marketplace GDA: Test Cases/UTILITIES/Open Marketplace GDA
+
+2020-10-28 15:09:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-28 15:09:12 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-10-28 15:09:13 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-10-28 15:09:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-28 15:09:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-28 15:09:15 - [TEST_STEP][PASSED] - navigateToUrl(otherurl): Navigate to 'https://gdastaging.test-arcadier.com/' successfully
+
+2020-10-28 15:09:26 - [MESSAGE][PASSED] - Navigate to 'https://gdastaging.test-arcadier.com/' successfully
+
+2020-10-28 15:09:26 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UTILITIES/Open Marketplace GDA' successfully
+
+2020-10-28 15:09:26 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("COVID19 homepage object/Cart")): Object 'Object Repository/COVID19 homepage object/Cart' is NOT visible
+
+2020-10-28 15:09:29 - [MESSAGE][PASSED] - Object 'Object Repository/COVID19 homepage object/Cart' is NOT visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GDA/TC_UI_004" time="17.921" classname="Test Cases/GDA/TC_UI_004" status="PASSED">
+         <system-out><![CDATA[2020-10-28 15:09:29 - [TEST_CASE][PASSED] - Test Cases/GDA/TC_UI_004: Test Cases/GDA/TC_UI_004
+
+2020-10-28 15:09:29 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UTILITIES/Open Marketplace GDA"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UTILITIES/Open Marketplace GDA' successfully
+
+2020-10-28 15:09:29 - [TEST_CASE][PASSED] - Test Cases/UTILITIES/Open Marketplace GDA: Test Cases/UTILITIES/Open Marketplace GDA
+
+2020-10-28 15:09:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-28 15:09:29 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-10-28 15:09:30 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-10-28 15:09:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-28 15:09:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-28 15:09:33 - [TEST_STEP][PASSED] - navigateToUrl(otherurl): Navigate to 'https://gdastaging.test-arcadier.com/' successfully
+
+2020-10-28 15:09:46 - [MESSAGE][PASSED] - Navigate to 'https://gdastaging.test-arcadier.com/' successfully
+
+2020-10-28 15:09:46 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UTILITIES/Open Marketplace GDA' successfully
+
+2020-10-28 15:09:46 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("COVID19 homepage object/Language")): Object 'Object Repository/COVID19 homepage object/Language' is NOT visible
+
+2020-10-28 15:09:47 - [MESSAGE][PASSED] - Object 'Object Repository/COVID19 homepage object/Language' is NOT visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GDA/TC_UI_005_GDA" time="17.528" classname="Test Cases/GDA/TC_UI_005_GDA" status="PASSED">
+         <system-out><![CDATA[2020-10-28 15:09:47 - [TEST_CASE][PASSED] - Test Cases/GDA/TC_UI_005_GDA: Test Cases/GDA/TC_UI_005_GDA
+
+2020-10-28 15:09:47 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UTILITIES/Open Marketplace GDA"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UTILITIES/Open Marketplace GDA' successfully
+
+2020-10-28 15:09:47 - [TEST_CASE][PASSED] - Test Cases/UTILITIES/Open Marketplace GDA: Test Cases/UTILITIES/Open Marketplace GDA
+
+2020-10-28 15:09:47 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-28 15:09:47 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-10-28 15:09:48 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-10-28 15:09:48 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-28 15:09:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-28 15:09:51 - [TEST_STEP][PASSED] - navigateToUrl(otherurl): Navigate to 'https://gdastaging.test-arcadier.com/' successfully
+
+2020-10-28 15:10:01 - [MESSAGE][PASSED] - Navigate to 'https://gdastaging.test-arcadier.com/' successfully
+
+2020-10-28 15:10:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UTILITIES/Open Marketplace GDA' successfully
+
+2020-10-28 15:10:01 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("GDA homepage object/a_TUBERCULOSIS DIAGNOSTICS")): Object 'Object Repository/GDA homepage object/a_TUBERCULOSIS DIAGNOSTICS' is visible
+
+2020-10-28 15:10:02 - [MESSAGE][PASSED] - Object 'Object Repository/GDA homepage object/a_TUBERCULOSIS DIAGNOSTICS' is visible
+
+2020-10-28 15:10:02 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("GDA homepage object/a_TUBERCULOSIS DIAGNOSTICS"), "TUBERCULOSIS DIAGNOSTICS"): Actual text and expected text of test object 'Object Repository/GDA homepage object/a_TUBERCULOSIS DIAGNOSTICS' are matched.
+
+2020-10-28 15:10:03 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GDA homepage object/a_TUBERCULOSIS DIAGNOSTICS' are matched.
+
+2020-10-28 15:10:03 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("GDA homepage object/a_TUBERCULOSIS DIAGNOSTICS")): Object 'Object Repository/GDA homepage object/a_TUBERCULOSIS DIAGNOSTICS' is clickable
+
+2020-10-28 15:10:04 - [MESSAGE][PASSED] - Object 'Object Repository/GDA homepage object/a_TUBERCULOSIS DIAGNOSTICS' is clickable
+
+2020-10-28 15:10:04 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("GDA homepage object/a_TUBERCULOSIS DIAGNOSTICS"), "href", "https://gdastaging.test-arcadier.com/user/search?categoryid=442f3f18-cc83-4530-ac4c-de165130fd8a&category=Tuberculosis%20diagnostics", 0): Object 'Object Repository/GDA homepage object/a_TUBERCULOSIS DIAGNOSTICS' has attribute 'href' with value 'https://gdastaging.test-arcadier.com/user/search?categoryid=442f3f18-cc83-4530-ac4c-de165130fd8a&category=Tuberculosis%20diagnostics'
+
+2020-10-28 15:10:04 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-10-28 15:10:04 - [MESSAGE][PASSED] - Object 'Object Repository/GDA homepage object/a_TUBERCULOSIS DIAGNOSTICS' has attribute 'href' with value 'https://gdastaging.test-arcadier.com/user/search?categoryid=442f3f18-cc83-4530-ac4c-de165130fd8a&category=Tuberculosis%20diagnostics']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GDA/TC_UI_006_GDA" time="18.2" classname="Test Cases/GDA/TC_UI_006_GDA" status="PASSED">
+         <system-out><![CDATA[2020-10-28 15:10:04 - [TEST_CASE][PASSED] - Test Cases/GDA/TC_UI_006_GDA: Test Cases/GDA/TC_UI_006_GDA
+
+2020-10-28 15:10:05 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UTILITIES/Open Marketplace GDA"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UTILITIES/Open Marketplace GDA' successfully
+
+2020-10-28 15:10:05 - [TEST_CASE][PASSED] - Test Cases/UTILITIES/Open Marketplace GDA: Test Cases/UTILITIES/Open Marketplace GDA
+
+2020-10-28 15:10:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-28 15:10:05 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-10-28 15:10:05 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-10-28 15:10:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-28 15:10:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-28 15:10:08 - [TEST_STEP][PASSED] - navigateToUrl(otherurl): Navigate to 'https://gdastaging.test-arcadier.com/' successfully
+
+2020-10-28 15:10:20 - [MESSAGE][PASSED] - Navigate to 'https://gdastaging.test-arcadier.com/' successfully
+
+2020-10-28 15:10:20 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UTILITIES/Open Marketplace GDA' successfully
+
+2020-10-28 15:10:20 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("GDA homepage object/a_DIABETES DIAGNOSTICS")): Object 'Object Repository/GDA homepage object/a_DIABETES DIAGNOSTICS' is visible
+
+2020-10-28 15:10:21 - [MESSAGE][PASSED] - Object 'Object Repository/GDA homepage object/a_DIABETES DIAGNOSTICS' is visible
+
+2020-10-28 15:10:21 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("GDA homepage object/a_DIABETES DIAGNOSTICS"), "DIABETES DIAGNOSTICS"): Actual text and expected text of test object 'Object Repository/GDA homepage object/a_DIABETES DIAGNOSTICS' are matched.
+
+2020-10-28 15:10:22 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GDA homepage object/a_DIABETES DIAGNOSTICS' are matched.
+
+2020-10-28 15:10:22 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("GDA homepage object/a_DIABETES DIAGNOSTICS")): Object 'Object Repository/GDA homepage object/a_DIABETES DIAGNOSTICS' is clickable
+
+2020-10-28 15:10:22 - [MESSAGE][PASSED] - Object 'Object Repository/GDA homepage object/a_DIABETES DIAGNOSTICS' is clickable
+
+2020-10-28 15:10:22 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("GDA homepage object/a_DIABETES DIAGNOSTICS"), "href", "https://gdastaging.test-arcadier.com/user/search?categoryid=ca2df17a-39db-4511-bc38-a27dc2d12cc8&category=Diabetes%20diagnostics", 0): Object 'Object Repository/GDA homepage object/a_DIABETES DIAGNOSTICS' has attribute 'href' with value 'https://gdastaging.test-arcadier.com/user/search?categoryid=ca2df17a-39db-4511-bc38-a27dc2d12cc8&category=Diabetes%20diagnostics'
+
+2020-10-28 15:10:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-10-28 15:10:23 - [MESSAGE][PASSED] - Object 'Object Repository/GDA homepage object/a_DIABETES DIAGNOSTICS' has attribute 'href' with value 'https://gdastaging.test-arcadier.com/user/search?categoryid=ca2df17a-39db-4511-bc38-a27dc2d12cc8&category=Diabetes%20diagnostics']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GDA/TC_UI_007_GDA" time="17.104" classname="Test Cases/GDA/TC_UI_007_GDA" status="PASSED">
+         <system-out><![CDATA[2020-10-28 15:10:23 - [TEST_CASE][PASSED] - Test Cases/GDA/TC_UI_007_GDA: Test Cases/GDA/TC_UI_007_GDA
+
+2020-10-28 15:10:23 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UTILITIES/Open Marketplace GDA"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UTILITIES/Open Marketplace GDA' successfully
+
+2020-10-28 15:10:23 - [TEST_CASE][PASSED] - Test Cases/UTILITIES/Open Marketplace GDA: Test Cases/UTILITIES/Open Marketplace GDA
+
+2020-10-28 15:10:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-28 15:10:23 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-10-28 15:10:24 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-10-28 15:10:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-28 15:10:26 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-28 15:10:26 - [TEST_STEP][PASSED] - navigateToUrl(otherurl): Navigate to 'https://gdastaging.test-arcadier.com/' successfully
+
+2020-10-28 15:10:36 - [MESSAGE][PASSED] - Navigate to 'https://gdastaging.test-arcadier.com/' successfully
+
+2020-10-28 15:10:36 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UTILITIES/Open Marketplace GDA' successfully
+
+2020-10-28 15:10:36 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("GDA homepage object/a_HEPATITIS C  HIV DIAGNOSTICS")): Object 'Object Repository/GDA homepage object/a_HEPATITIS C  HIV DIAGNOSTICS' is visible
+
+2020-10-28 15:10:37 - [MESSAGE][PASSED] - Object 'Object Repository/GDA homepage object/a_HEPATITIS C  HIV DIAGNOSTICS' is visible
+
+2020-10-28 15:10:37 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("GDA homepage object/a_HEPATITIS C  HIV DIAGNOSTICS"), "HEPATITIS C & HIV DIAGNOSTICS"): Actual text and expected text of test object 'Object Repository/GDA homepage object/a_HEPATITIS C  HIV DIAGNOSTICS' are matched.
+
+2020-10-28 15:10:38 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GDA homepage object/a_HEPATITIS C  HIV DIAGNOSTICS' are matched.
+
+2020-10-28 15:10:38 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("GDA homepage object/a_HEPATITIS C  HIV DIAGNOSTICS")): Object 'Object Repository/GDA homepage object/a_HEPATITIS C  HIV DIAGNOSTICS' is clickable
+
+2020-10-28 15:10:40 - [MESSAGE][PASSED] - Object 'Object Repository/GDA homepage object/a_HEPATITIS C  HIV DIAGNOSTICS' is clickable
+
+2020-10-28 15:10:40 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("GDA homepage object/a_HEPATITIS C  HIV DIAGNOSTICS"), "href", "https://gdastaging.test-arcadier.com/user/search?categoryid=d43da890-e478-4eee-b5d7-d38d9d55495f&category=Hepatitis%20C%20&%20HIV%20diagnostics", 0): Object 'Object Repository/GDA homepage object/a_HEPATITIS C  HIV DIAGNOSTICS' has attribute 'href' with value 'https://gdastaging.test-arcadier.com/user/search?categoryid=d43da890-e478-4eee-b5d7-d38d9d55495f&category=Hepatitis%20C%20&%20HIV%20diagnostics'
+
+2020-10-28 15:10:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-10-28 15:10:40 - [MESSAGE][PASSED] - Object 'Object Repository/GDA homepage object/a_HEPATITIS C  HIV DIAGNOSTICS' has attribute 'href' with value 'https://gdastaging.test-arcadier.com/user/search?categoryid=d43da890-e478-4eee-b5d7-d38d9d55495f&category=Hepatitis%20C%20&%20HIV%20diagnostics']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GDA/TC_UI_008_GDA" time="17.589" classname="Test Cases/GDA/TC_UI_008_GDA" status="PASSED">
+         <system-out><![CDATA[2020-10-28 15:10:40 - [TEST_CASE][PASSED] - Test Cases/GDA/TC_UI_008_GDA: Test Cases/GDA/TC_UI_008_GDA
+
+2020-10-28 15:10:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UTILITIES/Open Marketplace GDA"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UTILITIES/Open Marketplace GDA' successfully
+
+2020-10-28 15:10:40 - [TEST_CASE][PASSED] - Test Cases/UTILITIES/Open Marketplace GDA: Test Cases/UTILITIES/Open Marketplace GDA
+
+2020-10-28 15:10:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-28 15:10:40 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-10-28 15:10:41 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-10-28 15:10:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-28 15:10:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-28 15:10:44 - [TEST_STEP][PASSED] - navigateToUrl(otherurl): Navigate to 'https://gdastaging.test-arcadier.com/' successfully
+
+2020-10-28 15:10:54 - [MESSAGE][PASSED] - Navigate to 'https://gdastaging.test-arcadier.com/' successfully
+
+2020-10-28 15:10:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UTILITIES/Open Marketplace GDA' successfully
+
+2020-10-28 15:10:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("GDA homepage object/a_NTD DIAGNOSTICS")): Object 'Object Repository/GDA homepage object/a_NTD DIAGNOSTICS' is visible
+
+2020-10-28 15:10:55 - [MESSAGE][PASSED] - Object 'Object Repository/GDA homepage object/a_NTD DIAGNOSTICS' is visible
+
+2020-10-28 15:10:55 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("GDA homepage object/a_NTD DIAGNOSTICS"), "NTD DIAGNOSTICS"): Actual text and expected text of test object 'Object Repository/GDA homepage object/a_NTD DIAGNOSTICS' are matched.
+
+2020-10-28 15:10:56 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GDA homepage object/a_NTD DIAGNOSTICS' are matched.
+
+2020-10-28 15:10:56 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("GDA homepage object/a_NTD DIAGNOSTICS")): Object 'Object Repository/GDA homepage object/a_NTD DIAGNOSTICS' is clickable
+
+2020-10-28 15:10:57 - [MESSAGE][PASSED] - Object 'Object Repository/GDA homepage object/a_NTD DIAGNOSTICS' is clickable
+
+2020-10-28 15:10:57 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("GDA homepage object/a_NTD DIAGNOSTICS"), "href", "https://gdastaging.test-arcadier.com/user/search?categoryid=e9eb5d81-8798-440f-975b-cf0baa7650ac&category=NTD%20diagnostics", 0): Object 'Object Repository/GDA homepage object/a_NTD DIAGNOSTICS' has attribute 'href' with value 'https://gdastaging.test-arcadier.com/user/search?categoryid=e9eb5d81-8798-440f-975b-cf0baa7650ac&category=NTD%20diagnostics'
+
+2020-10-28 15:10:57 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-10-28 15:10:57 - [MESSAGE][PASSED] - Object 'Object Repository/GDA homepage object/a_NTD DIAGNOSTICS' has attribute 'href' with value 'https://gdastaging.test-arcadier.com/user/search?categoryid=e9eb5d81-8798-440f-975b-cf0baa7650ac&category=NTD%20diagnostics']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GDA/TC_UI_009_GDA" time="20.559" classname="Test Cases/GDA/TC_UI_009_GDA" status="PASSED">
+         <system-out><![CDATA[2020-10-28 15:10:57 - [TEST_CASE][PASSED] - Test Cases/GDA/TC_UI_009_GDA: Test Cases/GDA/TC_UI_009_GDA
+
+2020-10-28 15:10:58 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UTILITIES/Open Marketplace GDA"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UTILITIES/Open Marketplace GDA' successfully
+
+2020-10-28 15:10:58 - [TEST_CASE][PASSED] - Test Cases/UTILITIES/Open Marketplace GDA: Test Cases/UTILITIES/Open Marketplace GDA
+
+2020-10-28 15:10:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-28 15:10:58 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-10-28 15:10:58 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-10-28 15:10:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-28 15:11:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-28 15:11:01 - [TEST_STEP][PASSED] - navigateToUrl(otherurl): Navigate to 'https://gdastaging.test-arcadier.com/' successfully
+
+2020-10-28 15:11:15 - [MESSAGE][PASSED] - Navigate to 'https://gdastaging.test-arcadier.com/' successfully
+
+2020-10-28 15:11:15 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UTILITIES/Open Marketplace GDA' successfully
+
+2020-10-28 15:11:15 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("GDA homepage object/a_MALARIA DIAGNOSTICS")): Object 'Object Repository/GDA homepage object/a_MALARIA DIAGNOSTICS' is visible
+
+2020-10-28 15:11:17 - [MESSAGE][PASSED] - Object 'Object Repository/GDA homepage object/a_MALARIA DIAGNOSTICS' is visible
+
+2020-10-28 15:11:17 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("GDA homepage object/a_MALARIA DIAGNOSTICS"), "MALARIA DIAGNOSTICS"): Actual text and expected text of test object 'Object Repository/GDA homepage object/a_MALARIA DIAGNOSTICS' are matched.
+
+2020-10-28 15:11:17 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/GDA homepage object/a_MALARIA DIAGNOSTICS' are matched.
+
+2020-10-28 15:11:17 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("GDA homepage object/a_MALARIA DIAGNOSTICS")): Object 'Object Repository/GDA homepage object/a_MALARIA DIAGNOSTICS' is clickable
+
+2020-10-28 15:11:18 - [MESSAGE][PASSED] - Object 'Object Repository/GDA homepage object/a_MALARIA DIAGNOSTICS' is clickable
+
+2020-10-28 15:11:18 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("GDA homepage object/a_MALARIA DIAGNOSTICS"), "href", "https://gdastaging.test-arcadier.com/user/search?categoryid=b09fe177-3ffb-4f6b-82bc-2df16e850bd5&category=Malaria%20diagnostics", 0): Object 'Object Repository/GDA homepage object/a_MALARIA DIAGNOSTICS' has attribute 'href' with value 'https://gdastaging.test-arcadier.com/user/search?categoryid=b09fe177-3ffb-4f6b-82bc-2df16e850bd5&category=Malaria%20diagnostics'
+
+2020-10-28 15:11:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-10-28 15:11:18 - [MESSAGE][PASSED] - Object 'Object Repository/GDA homepage object/a_MALARIA DIAGNOSTICS' has attribute 'href' with value 'https://gdastaging.test-arcadier.com/user/search?categoryid=b09fe177-3ffb-4f6b-82bc-2df16e850bd5&category=Malaria%20diagnostics']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GDA/TC_UI_010" time="16.94" classname="Test Cases/GDA/TC_UI_010" status="PASSED">
+         <system-out><![CDATA[2020-10-28 15:11:18 - [TEST_CASE][PASSED] - Test Cases/GDA/TC_UI_010: Test Cases/GDA/TC_UI_010
+
+2020-10-28 15:11:18 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UTILITIES/Open Marketplace GDA"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UTILITIES/Open Marketplace GDA' successfully
+
+2020-10-28 15:11:18 - [TEST_CASE][PASSED] - Test Cases/UTILITIES/Open Marketplace GDA: Test Cases/UTILITIES/Open Marketplace GDA
+
+2020-10-28 15:11:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-28 15:11:18 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-10-28 15:11:19 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-10-28 15:11:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-28 15:11:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-28 15:11:22 - [TEST_STEP][PASSED] - navigateToUrl(otherurl): Navigate to 'https://gdastaging.test-arcadier.com/' successfully
+
+2020-10-28 15:11:32 - [MESSAGE][PASSED] - Navigate to 'https://gdastaging.test-arcadier.com/' successfully
+
+2020-10-28 15:11:32 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UTILITIES/Open Marketplace GDA' successfully
+
+2020-10-28 15:11:32 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("GDA homepage object/div_GDA Marketplace slider"), STOP_ON_FAILURE): Object 'Object Repository/GDA homepage object/div_GDA Marketplace slider' is visible
+
+2020-10-28 15:11:33 - [MESSAGE][PASSED] - Object 'Object Repository/GDA homepage object/div_GDA Marketplace slider' is visible
+
+2020-10-28 15:11:33 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("COVID19 homepage object/div_COVID-19 slider"), 0): Web element with id: 'Object Repository/COVID19 homepage object/div_COVID-19 slider' located by 'By.xpath: //div[@id='panel-9fad299e-05f8-4d82-8094-a2c7f1c35b29']/div' is not present after '30' second(s)
+
+2020-10-28 15:11:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-10-28 15:11:35 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/COVID19 homepage object/div_COVID-19 slider' located by 'By.xpath: //div[@id='panel-9fad299e-05f8-4d82-8094-a2c7f1c35b29']/div' is not present after '30' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GDA/TC_UI_011" time="19.891" classname="Test Cases/GDA/TC_UI_011" status="PASSED">
+         <system-out><![CDATA[2020-10-28 15:11:35 - [TEST_CASE][PASSED] - Test Cases/GDA/TC_UI_011: Test Cases/GDA/TC_UI_011
+
+2020-10-28 15:11:35 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UTILITIES/Open Marketplace GDA"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UTILITIES/Open Marketplace GDA' successfully
+
+2020-10-28 15:11:35 - [TEST_CASE][PASSED] - Test Cases/UTILITIES/Open Marketplace GDA: Test Cases/UTILITIES/Open Marketplace GDA
+
+2020-10-28 15:11:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-28 15:11:35 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-10-28 15:11:36 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-10-28 15:11:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-28 15:11:39 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-28 15:11:39 - [TEST_STEP][PASSED] - navigateToUrl(otherurl): Navigate to 'https://gdastaging.test-arcadier.com/' successfully
+
+2020-10-28 15:11:47 - [MESSAGE][PASSED] - Navigate to 'https://gdastaging.test-arcadier.com/' successfully
+
+2020-10-28 15:11:47 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UTILITIES/Open Marketplace GDA' successfully
+
+2020-10-28 15:11:47 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("GDA homepage object/div_GDA Panel 1")): Object 'Object Repository/GDA homepage object/div_GDA Panel 1' is visible
+
+2020-10-28 15:11:50 - [MESSAGE][PASSED] - Object 'Object Repository/GDA homepage object/div_GDA Panel 1' is visible
+
+2020-10-28 15:11:50 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("GDA homepage object/div_GDA Panel2"), STOP_ON_FAILURE): Object 'Object Repository/GDA homepage object/div_GDA Panel2' is visible
+
+2020-10-28 15:11:53 - [MESSAGE][PASSED] - Object 'Object Repository/GDA homepage object/div_GDA Panel2' is visible
+
+2020-10-28 15:11:53 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("GDA homepage object/div_GDA Panel 3")): Object 'Object Repository/GDA homepage object/div_GDA Panel 3' is visible
+
+2020-10-28 15:11:53 - [MESSAGE][PASSED] - Object 'Object Repository/GDA homepage object/div_GDA Panel 3' is visible
+
+2020-10-28 15:11:53 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("GDA homepage object/div_GDA Panel 4")): Object 'Object Repository/GDA homepage object/div_GDA Panel 4' is visible
+
+2020-10-28 15:11:53 - [MESSAGE][PASSED] - Object 'Object Repository/GDA homepage object/div_GDA Panel 4' is visible
+
+2020-10-28 15:11:53 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("GDA homepage object/div_GDA Panel5")): Object 'Object Repository/GDA homepage object/div_GDA Panel5' is visible
+
+2020-10-28 15:11:53 - [MESSAGE][PASSED] - Object 'Object Repository/GDA homepage object/div_GDA Panel5' is visible
+
+2020-10-28 15:11:53 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("GDA homepage object/div_GDA Panel 6")): Object 'Object Repository/GDA homepage object/div_GDA Panel 6' is visible
+
+2020-10-28 15:11:54 - [MESSAGE][PASSED] - Object 'Object Repository/GDA homepage object/div_GDA Panel 6' is visible
+
+2020-10-28 15:11:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("GDA homepage object/div_GDA Panel 7")): Object 'Object Repository/GDA homepage object/div_GDA Panel 7' is visible
+
+2020-10-28 15:11:54 - [MESSAGE][PASSED] - Object 'Object Repository/GDA homepage object/div_GDA Panel 7' is visible
+
+2020-10-28 15:11:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("GDA homepage object/div_GDA Panel 8")): Object 'Object Repository/GDA homepage object/div_GDA Panel 8' is visible
+
+2020-10-28 15:11:55 - [MESSAGE][PASSED] - Object 'Object Repository/GDA homepage object/div_GDA Panel 8' is visible
+
+2020-10-28 15:11:55 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("GDA homepage object/div_GDA Panel 9")): Object 'Object Repository/GDA homepage object/div_GDA Panel 9' is visible
+
+2020-10-28 15:11:55 - [MESSAGE][PASSED] - Object 'Object Repository/GDA homepage object/div_GDA Panel 9' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/GDA/TC_UI_012" time="20.77" classname="Test Cases/GDA/TC_UI_012" status="PASSED">
+         <system-out><![CDATA[2020-10-28 15:11:55 - [TEST_CASE][PASSED] - Test Cases/GDA/TC_UI_012: Test Cases/GDA/TC_UI_012
+
+2020-10-28 15:11:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UTILITIES/Open Marketplace GDA"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UTILITIES/Open Marketplace GDA' successfully
+
+2020-10-28 15:11:55 - [TEST_CASE][PASSED] - Test Cases/UTILITIES/Open Marketplace GDA: Test Cases/UTILITIES/Open Marketplace GDA
+
+2020-10-28 15:11:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-28 15:11:55 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-10-28 15:11:56 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-10-28 15:11:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-28 15:11:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-28 15:11:58 - [TEST_STEP][PASSED] - navigateToUrl(otherurl): Navigate to 'https://gdastaging.test-arcadier.com/' successfully
+
+2020-10-28 15:12:11 - [MESSAGE][PASSED] - Navigate to 'https://gdastaging.test-arcadier.com/' successfully
+
+2020-10-28 15:12:11 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UTILITIES/Open Marketplace GDA' successfully
+
+2020-10-28 15:12:11 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("COVID19 homepage object/div_COVID-19 Panel 1")): Object 'Object Repository/COVID19 homepage object/div_COVID-19 Panel 1' is NOT visible
+
+2020-10-28 15:12:12 - [MESSAGE][PASSED] - Object 'Object Repository/COVID19 homepage object/div_COVID-19 Panel 1' is NOT visible
+
+2020-10-28 15:12:12 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("GDA homepage object/a_Accept Cookies")): Object 'Object Repository/GDA homepage object/a_Accept Cookies' is visible
+
+2020-10-28 15:12:13 - [MESSAGE][PASSED] - Object 'Object Repository/GDA homepage object/a_Accept Cookies' is visible
+
+2020-10-28 15:12:13 - [TEST_STEP][PASSED] - click(findTestObject("GDA homepage object/a_Accept Cookies")): Object: 'Object Repository/GDA homepage object/a_Accept Cookies' is clicked on
+
+2020-10-28 15:12:13 - [MESSAGE][PASSED] - Object: 'Object Repository/GDA homepage object/a_Accept Cookies' is clicked on
+
+2020-10-28 15:12:13 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("COVID19 homepage object/div_COVID-19 Panel 2")): Object 'Object Repository/COVID19 homepage object/div_COVID-19 Panel 2' is visible
+
+2020-10-28 15:12:14 - [MESSAGE][PASSED] - Object 'Object Repository/COVID19 homepage object/div_COVID-19 Panel 2' is visible
+
+2020-10-28 15:12:14 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("COVID19 homepage object/div_COVID-19 Panel 3")): Object 'Object Repository/COVID19 homepage object/div_COVID-19 Panel 3' is NOT visible
+
+2020-10-28 15:12:14 - [MESSAGE][PASSED] - Object 'Object Repository/COVID19 homepage object/div_COVID-19 Panel 3' is NOT visible
+
+2020-10-28 15:12:14 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("COVID19 homepage object/div_COVID-19 Panel 4")): Object 'Object Repository/COVID19 homepage object/div_COVID-19 Panel 4' is NOT visible
+
+2020-10-28 15:12:15 - [MESSAGE][PASSED] - Object 'Object Repository/COVID19 homepage object/div_COVID-19 Panel 4' is NOT visible
+
+2020-10-28 15:12:15 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("COVID19 homepage object/div_COVID-19 Panel 5")): Object 'Object Repository/COVID19 homepage object/div_COVID-19 Panel 5' is NOT visible
+
+2020-10-28 15:12:15 - [MESSAGE][PASSED] - Object 'Object Repository/COVID19 homepage object/div_COVID-19 Panel 5' is NOT visible
+
+2020-10-28 15:12:15 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("COVID19 homepage object/div_COVID-19 Panel 6")): Object 'Object Repository/COVID19 homepage object/div_COVID-19 Panel 6' is NOT visible
+
+2020-10-28 15:12:16 - [MESSAGE][PASSED] - Object 'Object Repository/COVID19 homepage object/div_COVID-19 Panel 6' is NOT visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-10-28 15:08:43 - [TEST_SUITE][PASSED] - GDA: Test Cases/GDA/TC_UI_012]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

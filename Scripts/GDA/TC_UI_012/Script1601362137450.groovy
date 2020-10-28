@@ -19,7 +19,11 @@ WebUI.callTestCase(findTestCase('UTILITIES/Open Marketplace GDA'), [:], FailureH
 
 WebUI.verifyElementNotVisible(findTestObject('COVID19 homepage object/div_COVID-19 Panel 1'))
 
-WebUI.verifyElementNotVisible(findTestObject('COVID19 homepage object/div_COVID-19 Panel 2'))
+WebUI.verifyElementVisible(findTestObject('GDA homepage object/a_Accept Cookies'))
+
+WebUI.click(findTestObject('GDA homepage object/a_Accept Cookies'))
+
+WebUI.verifyElementVisible(findTestObject('COVID19 homepage object/div_COVID-19 Panel 2'))
 
 WebUI.verifyElementNotVisible(findTestObject('COVID19 homepage object/div_COVID-19 Panel 3'))
 

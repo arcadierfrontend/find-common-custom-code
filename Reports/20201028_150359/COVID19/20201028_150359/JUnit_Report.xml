@@ -1,0 +1,495 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="COVID19" time="203.911" tests="12" failures="0" errors="0">
+   <testsuite name="COVID19" tests="12" failures="0" errors="0" time="203.911" timestamp="2020-10-28 15:04:12" hostname="Lexoter - DESKTOP-IJBB9BE" id="Test Suites/COVID19">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="K:\\Work\\GitHub\\find-common-custom-code\\Reports\\20201028_150359\\COVID19\\20201028_150359"/>
+         <property name="logFiles" value="K:\\Work\\GitHub\\find-common-custom-code\\Reports\\20201028_150359\\COVID19\\20201028_150359\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Lexoter - DESKTOP-IJBB9BE"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.6.6.205"/>
+         <property name="browser" value="Firefox 81.0"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="a64d7683-869c-459e-a4eb-879700854ac0"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/COVID19/TC_UI_001" time="20.971" classname="Test Cases/COVID19/TC_UI_001" status="PASSED">
+         <system-out><![CDATA[2020-10-28 15:04:12 - [TEST_CASE][PASSED] - Test Cases/COVID19/TC_UI_001: Test Cases/COVID19/TC_UI_001
+
+2020-10-28 15:04:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UTILITIES/Open Marketplace COVID"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UTILITIES/Open Marketplace COVID' successfully
+
+2020-10-28 15:04:13 - [TEST_CASE][PASSED] - Test Cases/UTILITIES/Open Marketplace COVID: Test Cases/UTILITIES/Open Marketplace COVID
+
+2020-10-28 15:04:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-28 15:04:13 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-10-28 15:04:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-28 15:04:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-28 15:04:17 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://covid19staging.test-arcadier.com/' successfully
+
+2020-10-28 15:04:33 - [MESSAGE][PASSED] - Navigate to 'https://covid19staging.test-arcadier.com/' successfully
+
+2020-10-28 15:04:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UTILITIES/Open Marketplace COVID' successfully
+
+2020-10-28 15:04:33 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("COVID19 homepage object/input_Search bar")): Object 'Object Repository/COVID19 homepage object/input_Search bar' is visible
+
+2020-10-28 15:04:33 - [MESSAGE][PASSED] - Object 'Object Repository/COVID19 homepage object/input_Search bar' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/COVID19/TC_UI_002" time="18.841" classname="Test Cases/COVID19/TC_UI_002" status="PASSED">
+         <system-out><![CDATA[2020-10-28 15:04:33 - [TEST_CASE][PASSED] - Test Cases/COVID19/TC_UI_002: Test Cases/COVID19/TC_UI_002
+
+2020-10-28 15:04:34 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UTILITIES/Open Marketplace COVID"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UTILITIES/Open Marketplace COVID' successfully
+
+2020-10-28 15:04:34 - [TEST_CASE][PASSED] - Test Cases/UTILITIES/Open Marketplace COVID: Test Cases/UTILITIES/Open Marketplace COVID
+
+2020-10-28 15:04:34 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-28 15:04:34 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-10-28 15:04:34 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-10-28 15:04:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-28 15:04:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-28 15:04:37 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://covid19staging.test-arcadier.com/' successfully
+
+2020-10-28 15:04:52 - [MESSAGE][PASSED] - Navigate to 'https://covid19staging.test-arcadier.com/' successfully
+
+2020-10-28 15:04:52 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UTILITIES/Open Marketplace COVID' successfully
+
+2020-10-28 15:04:52 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("COVID19 homepage object/Be A Seller")): Object 'Object Repository/COVID19 homepage object/Be A Seller' is NOT visible
+
+2020-10-28 15:04:52 - [MESSAGE][PASSED] - Object 'Object Repository/COVID19 homepage object/Be A Seller' is NOT visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/COVID19/TC_UI_003" time="20.789" classname="Test Cases/COVID19/TC_UI_003" status="PASSED">
+         <system-out><![CDATA[2020-10-28 15:04:52 - [TEST_CASE][PASSED] - Test Cases/COVID19/TC_UI_003: Test Cases/COVID19/TC_UI_003
+
+2020-10-28 15:04:52 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UTILITIES/Open Marketplace COVID"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UTILITIES/Open Marketplace COVID' successfully
+
+2020-10-28 15:04:52 - [TEST_CASE][PASSED] - Test Cases/UTILITIES/Open Marketplace COVID: Test Cases/UTILITIES/Open Marketplace COVID
+
+2020-10-28 15:04:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-28 15:04:52 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-10-28 15:04:53 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-10-28 15:04:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-28 15:04:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-28 15:04:56 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://covid19staging.test-arcadier.com/' successfully
+
+2020-10-28 15:05:12 - [MESSAGE][PASSED] - Navigate to 'https://covid19staging.test-arcadier.com/' successfully
+
+2020-10-28 15:05:12 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UTILITIES/Open Marketplace COVID' successfully
+
+2020-10-28 15:05:12 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("COVID19 homepage object/Cart")): Object 'Object Repository/COVID19 homepage object/Cart' is NOT visible
+
+2020-10-28 15:05:13 - [MESSAGE][PASSED] - Object 'Object Repository/COVID19 homepage object/Cart' is NOT visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/COVID19/TC_UI_004" time="14.194" classname="Test Cases/COVID19/TC_UI_004" status="PASSED">
+         <system-out><![CDATA[2020-10-28 15:05:13 - [TEST_CASE][PASSED] - Test Cases/COVID19/TC_UI_004: Test Cases/COVID19/TC_UI_004
+
+2020-10-28 15:05:13 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UTILITIES/Open Marketplace COVID"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UTILITIES/Open Marketplace COVID' successfully
+
+2020-10-28 15:05:13 - [TEST_CASE][PASSED] - Test Cases/UTILITIES/Open Marketplace COVID: Test Cases/UTILITIES/Open Marketplace COVID
+
+2020-10-28 15:05:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-28 15:05:13 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-10-28 15:05:14 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-10-28 15:05:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-28 15:05:17 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-28 15:05:17 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://covid19staging.test-arcadier.com/' successfully
+
+2020-10-28 15:05:27 - [MESSAGE][PASSED] - Navigate to 'https://covid19staging.test-arcadier.com/' successfully
+
+2020-10-28 15:05:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UTILITIES/Open Marketplace COVID' successfully
+
+2020-10-28 15:05:27 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("COVID19 homepage object/Language")): Object 'Object Repository/COVID19 homepage object/Language' is NOT visible
+
+2020-10-28 15:05:27 - [MESSAGE][PASSED] - Object 'Object Repository/COVID19 homepage object/Language' is NOT visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/COVID19/TC_UI_005_COVID" time="13.317" classname="Test Cases/COVID19/TC_UI_005_COVID" status="PASSED">
+         <system-out><![CDATA[2020-10-28 15:05:27 - [TEST_CASE][PASSED] - Test Cases/COVID19/TC_UI_005_COVID: Test Cases/COVID19/TC_UI_005_COVID
+
+2020-10-28 15:05:27 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UTILITIES/Open Marketplace COVID"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UTILITIES/Open Marketplace COVID' successfully
+
+2020-10-28 15:05:27 - [TEST_CASE][PASSED] - Test Cases/UTILITIES/Open Marketplace COVID: Test Cases/UTILITIES/Open Marketplace COVID
+
+2020-10-28 15:05:27 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-28 15:05:27 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-10-28 15:05:28 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-10-28 15:05:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-28 15:05:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-28 15:05:31 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://covid19staging.test-arcadier.com/' successfully
+
+2020-10-28 15:05:39 - [MESSAGE][PASSED] - Navigate to 'https://covid19staging.test-arcadier.com/' successfully
+
+2020-10-28 15:05:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UTILITIES/Open Marketplace COVID' successfully
+
+2020-10-28 15:05:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("COVID19 homepage object/a_ANTIGEN (Ag)")): Object 'Object Repository/COVID19 homepage object/a_ANTIGEN (Ag)' is visible
+
+2020-10-28 15:05:40 - [MESSAGE][PASSED] - Object 'Object Repository/COVID19 homepage object/a_ANTIGEN (Ag)' is visible
+
+2020-10-28 15:05:40 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("COVID19 homepage object/a_ANTIGEN (Ag)"), "ANTIGEN (Ag)"): Actual text and expected text of test object 'Object Repository/COVID19 homepage object/a_ANTIGEN (Ag)' are matched.
+
+2020-10-28 15:05:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/COVID19 homepage object/a_ANTIGEN (Ag)' are matched.
+
+2020-10-28 15:05:40 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("COVID19 homepage object/a_ANTIGEN (Ag)")): Object 'Object Repository/COVID19 homepage object/a_ANTIGEN (Ag)' is clickable
+
+2020-10-28 15:05:40 - [MESSAGE][PASSED] - Object 'Object Repository/COVID19 homepage object/a_ANTIGEN (Ag)' is clickable
+
+2020-10-28 15:05:40 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("COVID19 homepage object/a_ANTIGEN (Ag)"), "href", "https://covid19staging.test-arcadier.com/User/Search?categoryid=785a3306-e5ca-4e9a-9fd1-ccd4b4a58b44", 0): Object 'Object Repository/COVID19 homepage object/a_ANTIGEN (Ag)' has attribute 'href' with value 'https://covid19staging.test-arcadier.com/User/Search?categoryid=785a3306-e5ca-4e9a-9fd1-ccd4b4a58b44'
+
+2020-10-28 15:05:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-10-28 15:05:41 - [MESSAGE][PASSED] - Object 'Object Repository/COVID19 homepage object/a_ANTIGEN (Ag)' has attribute 'href' with value 'https://covid19staging.test-arcadier.com/User/Search?categoryid=785a3306-e5ca-4e9a-9fd1-ccd4b4a58b44']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/COVID19/TC_UI_006_COVID" time="18.268" classname="Test Cases/COVID19/TC_UI_006_COVID" status="PASSED">
+         <system-out><![CDATA[2020-10-28 15:05:41 - [TEST_CASE][PASSED] - Test Cases/COVID19/TC_UI_006_COVID: Test Cases/COVID19/TC_UI_006_COVID
+
+2020-10-28 15:05:41 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UTILITIES/Open Marketplace COVID"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UTILITIES/Open Marketplace COVID' successfully
+
+2020-10-28 15:05:41 - [TEST_CASE][PASSED] - Test Cases/UTILITIES/Open Marketplace COVID: Test Cases/UTILITIES/Open Marketplace COVID
+
+2020-10-28 15:05:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-28 15:05:41 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-10-28 15:05:41 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-10-28 15:05:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-28 15:05:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-28 15:05:44 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://covid19staging.test-arcadier.com/' successfully
+
+2020-10-28 15:05:57 - [MESSAGE][PASSED] - Navigate to 'https://covid19staging.test-arcadier.com/' successfully
+
+2020-10-28 15:05:57 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UTILITIES/Open Marketplace COVID' successfully
+
+2020-10-28 15:05:57 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("COVID19 homepage object/a_ANTIBODY (Ab)")): Object 'Object Repository/COVID19 homepage object/a_ANTIBODY (Ab)' is visible
+
+2020-10-28 15:05:58 - [MESSAGE][PASSED] - Object 'Object Repository/COVID19 homepage object/a_ANTIBODY (Ab)' is visible
+
+2020-10-28 15:05:58 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("COVID19 homepage object/a_ANTIBODY (Ab)"), "ANTIBODY (Ab)"): Actual text and expected text of test object 'Object Repository/COVID19 homepage object/a_ANTIBODY (Ab)' are matched.
+
+2020-10-28 15:05:58 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/COVID19 homepage object/a_ANTIBODY (Ab)' are matched.
+
+2020-10-28 15:05:58 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("COVID19 homepage object/a_ANTIBODY (Ab)")): Object 'Object Repository/COVID19 homepage object/a_ANTIBODY (Ab)' is clickable
+
+2020-10-28 15:05:59 - [MESSAGE][PASSED] - Object 'Object Repository/COVID19 homepage object/a_ANTIBODY (Ab)' is clickable
+
+2020-10-28 15:05:59 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("COVID19 homepage object/a_ANTIBODY (Ab)"), "href", "https://covid19staging.test-arcadier.com/User/Search?categoryid=c38cf63e-58da-491b-a769-95ee473323f7", 0): Object 'Object Repository/COVID19 homepage object/a_ANTIBODY (Ab)' has attribute 'href' with value 'https://covid19staging.test-arcadier.com/User/Search?categoryid=c38cf63e-58da-491b-a769-95ee473323f7'
+
+2020-10-28 15:05:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-10-28 15:05:59 - [MESSAGE][PASSED] - Object 'Object Repository/COVID19 homepage object/a_ANTIBODY (Ab)' has attribute 'href' with value 'https://covid19staging.test-arcadier.com/User/Search?categoryid=c38cf63e-58da-491b-a769-95ee473323f7']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/COVID19/TC_UI_007_COVID" time="15.056" classname="Test Cases/COVID19/TC_UI_007_COVID" status="PASSED">
+         <system-out><![CDATA[2020-10-28 15:05:59 - [TEST_CASE][PASSED] - Test Cases/COVID19/TC_UI_007_COVID: Test Cases/COVID19/TC_UI_007_COVID
+
+2020-10-28 15:05:59 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UTILITIES/Open Marketplace COVID"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UTILITIES/Open Marketplace COVID' successfully
+
+2020-10-28 15:05:59 - [TEST_CASE][PASSED] - Test Cases/UTILITIES/Open Marketplace COVID: Test Cases/UTILITIES/Open Marketplace COVID
+
+2020-10-28 15:05:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-28 15:05:59 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-10-28 15:06:00 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-10-28 15:06:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-28 15:06:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-28 15:06:03 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://covid19staging.test-arcadier.com/' successfully
+
+2020-10-28 15:06:13 - [MESSAGE][PASSED] - Navigate to 'https://covid19staging.test-arcadier.com/' successfully
+
+2020-10-28 15:06:13 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UTILITIES/Open Marketplace COVID' successfully
+
+2020-10-28 15:06:13 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("COVID19 homepage object/a_MOLECULAR ASSAYS (NAT)")): Object 'Object Repository/COVID19 homepage object/a_MOLECULAR ASSAYS (NAT)' is visible
+
+2020-10-28 15:06:13 - [MESSAGE][PASSED] - Object 'Object Repository/COVID19 homepage object/a_MOLECULAR ASSAYS (NAT)' is visible
+
+2020-10-28 15:06:13 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("COVID19 homepage object/a_MOLECULAR ASSAYS (NAT)"), "MOLECULAR ASSAYS (NAT)"): Actual text and expected text of test object 'Object Repository/COVID19 homepage object/a_MOLECULAR ASSAYS (NAT)' are matched.
+
+2020-10-28 15:06:13 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/COVID19 homepage object/a_MOLECULAR ASSAYS (NAT)' are matched.
+
+2020-10-28 15:06:13 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("COVID19 homepage object/a_MOLECULAR ASSAYS (NAT)")): Object 'Object Repository/COVID19 homepage object/a_MOLECULAR ASSAYS (NAT)' is clickable
+
+2020-10-28 15:06:14 - [MESSAGE][PASSED] - Object 'Object Repository/COVID19 homepage object/a_MOLECULAR ASSAYS (NAT)' is clickable
+
+2020-10-28 15:06:14 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("COVID19 homepage object/a_MOLECULAR ASSAYS (NAT)"), "href", "https://covid19staging.test-arcadier.com/User/Search?categoryid=94241017-649d-4021-a946-ffd1a23800d6", 0): Object 'Object Repository/COVID19 homepage object/a_MOLECULAR ASSAYS (NAT)' has attribute 'href' with value 'https://covid19staging.test-arcadier.com/User/Search?categoryid=94241017-649d-4021-a946-ffd1a23800d6'
+
+2020-10-28 15:06:14 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-10-28 15:06:14 - [MESSAGE][PASSED] - Object 'Object Repository/COVID19 homepage object/a_MOLECULAR ASSAYS (NAT)' has attribute 'href' with value 'https://covid19staging.test-arcadier.com/User/Search?categoryid=94241017-649d-4021-a946-ffd1a23800d6']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/COVID19/TC_UI_008_COVID" time="14.651" classname="Test Cases/COVID19/TC_UI_008_COVID" status="PASSED">
+         <system-out><![CDATA[2020-10-28 15:06:14 - [TEST_CASE][PASSED] - Test Cases/COVID19/TC_UI_008_COVID: Test Cases/COVID19/TC_UI_008_COVID
+
+2020-10-28 15:06:14 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UTILITIES/Open Marketplace COVID"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UTILITIES/Open Marketplace COVID' successfully
+
+2020-10-28 15:06:14 - [TEST_CASE][PASSED] - Test Cases/UTILITIES/Open Marketplace COVID: Test Cases/UTILITIES/Open Marketplace COVID
+
+2020-10-28 15:06:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-28 15:06:14 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-10-28 15:06:15 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-10-28 15:06:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-28 15:06:18 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-28 15:06:18 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://covid19staging.test-arcadier.com/' successfully
+
+2020-10-28 15:06:27 - [MESSAGE][PASSED] - Navigate to 'https://covid19staging.test-arcadier.com/' successfully
+
+2020-10-28 15:06:27 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UTILITIES/Open Marketplace COVID' successfully
+
+2020-10-28 15:06:27 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("COVID19 homepage object/a_SELF-COLLECTION KIT")): Object 'Object Repository/COVID19 homepage object/a_SELF-COLLECTION KIT' is visible
+
+2020-10-28 15:06:28 - [MESSAGE][PASSED] - Object 'Object Repository/COVID19 homepage object/a_SELF-COLLECTION KIT' is visible
+
+2020-10-28 15:06:28 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("COVID19 homepage object/a_SELF-COLLECTION KIT"), "SELF-COLLECTION KIT"): Actual text and expected text of test object 'Object Repository/COVID19 homepage object/a_SELF-COLLECTION KIT' are matched.
+
+2020-10-28 15:06:28 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/COVID19 homepage object/a_SELF-COLLECTION KIT' are matched.
+
+2020-10-28 15:06:28 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("COVID19 homepage object/a_SELF-COLLECTION KIT")): Object 'Object Repository/COVID19 homepage object/a_SELF-COLLECTION KIT' is clickable
+
+2020-10-28 15:06:28 - [MESSAGE][PASSED] - Object 'Object Repository/COVID19 homepage object/a_SELF-COLLECTION KIT' is clickable
+
+2020-10-28 15:06:28 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("COVID19 homepage object/a_SELF-COLLECTION KIT"), "href", "https://covid19staging.test-arcadier.com/User/Search?categoryid=ec159711-7e06-4fc2-ab0c-4e8fadd132a0", 0): Object 'Object Repository/COVID19 homepage object/a_SELF-COLLECTION KIT' has attribute 'href' with value 'https://covid19staging.test-arcadier.com/User/Search?categoryid=ec159711-7e06-4fc2-ab0c-4e8fadd132a0'
+
+2020-10-28 15:06:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-10-28 15:06:29 - [MESSAGE][PASSED] - Object 'Object Repository/COVID19 homepage object/a_SELF-COLLECTION KIT' has attribute 'href' with value 'https://covid19staging.test-arcadier.com/User/Search?categoryid=ec159711-7e06-4fc2-ab0c-4e8fadd132a0']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/COVID19/TC_UI_009_COVID" time="16.429" classname="Test Cases/COVID19/TC_UI_009_COVID" status="PASSED">
+         <system-out><![CDATA[2020-10-28 15:06:29 - [TEST_CASE][PASSED] - Test Cases/COVID19/TC_UI_009_COVID: Test Cases/COVID19/TC_UI_009_COVID
+
+2020-10-28 15:06:29 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UTILITIES/Open Marketplace COVID"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UTILITIES/Open Marketplace COVID' successfully
+
+2020-10-28 15:06:29 - [TEST_CASE][PASSED] - Test Cases/UTILITIES/Open Marketplace COVID: Test Cases/UTILITIES/Open Marketplace COVID
+
+2020-10-28 15:06:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-28 15:06:29 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-10-28 15:06:29 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-10-28 15:06:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-28 15:06:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-28 15:06:32 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://covid19staging.test-arcadier.com/' successfully
+
+2020-10-28 15:06:44 - [MESSAGE][PASSED] - Navigate to 'https://covid19staging.test-arcadier.com/' successfully
+
+2020-10-28 15:06:44 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UTILITIES/Open Marketplace COVID' successfully
+
+2020-10-28 15:06:44 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("COVID19 homepage object/a_SEQUENCING")): Object 'Object Repository/COVID19 homepage object/a_SEQUENCING' is visible
+
+2020-10-28 15:06:44 - [MESSAGE][PASSED] - Object 'Object Repository/COVID19 homepage object/a_SEQUENCING' is visible
+
+2020-10-28 15:06:44 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("COVID19 homepage object/a_SEQUENCING"), "SEQUENCING"): Actual text and expected text of test object 'Object Repository/COVID19 homepage object/a_SEQUENCING' are matched.
+
+2020-10-28 15:06:44 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/COVID19 homepage object/a_SEQUENCING' are matched.
+
+2020-10-28 15:06:44 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("COVID19 homepage object/a_SEQUENCING")): Object 'Object Repository/COVID19 homepage object/a_SEQUENCING' is clickable
+
+2020-10-28 15:06:45 - [MESSAGE][PASSED] - Object 'Object Repository/COVID19 homepage object/a_SEQUENCING' is clickable
+
+2020-10-28 15:06:45 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("COVID19 homepage object/a_SEQUENCING"), "href", "https://covid19staging.test-arcadier.com/User/Search?categoryid=882590c5-866c-4af5-b279-92b3af363362", 0): Object 'Object Repository/COVID19 homepage object/a_SEQUENCING' has attribute 'href' with value 'https://covid19staging.test-arcadier.com/User/Search?categoryid=882590c5-866c-4af5-b279-92b3af363362'
+
+2020-10-28 15:06:45 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-10-28 15:06:45 - [MESSAGE][PASSED] - Object 'Object Repository/COVID19 homepage object/a_SEQUENCING' has attribute 'href' with value 'https://covid19staging.test-arcadier.com/User/Search?categoryid=882590c5-866c-4af5-b279-92b3af363362']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/COVID19/TC_UI_010" time="17.523" classname="Test Cases/COVID19/TC_UI_010" status="PASSED">
+         <system-out><![CDATA[2020-10-28 15:06:45 - [TEST_CASE][PASSED] - Test Cases/COVID19/TC_UI_010: Test Cases/COVID19/TC_UI_010
+
+2020-10-28 15:06:45 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UTILITIES/Open Marketplace COVID"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UTILITIES/Open Marketplace COVID' successfully
+
+2020-10-28 15:06:45 - [TEST_CASE][PASSED] - Test Cases/UTILITIES/Open Marketplace COVID: Test Cases/UTILITIES/Open Marketplace COVID
+
+2020-10-28 15:06:45 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-28 15:06:45 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-10-28 15:06:46 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-10-28 15:06:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-28 15:06:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-28 15:06:49 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://covid19staging.test-arcadier.com/' successfully
+
+2020-10-28 15:07:02 - [MESSAGE][PASSED] - Navigate to 'https://covid19staging.test-arcadier.com/' successfully
+
+2020-10-28 15:07:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UTILITIES/Open Marketplace COVID' successfully
+
+2020-10-28 15:07:02 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("COVID19 homepage object/div_COVID-19 slider")): Object 'Object Repository/COVID19 homepage object/div_COVID-19 slider' is visible
+
+2020-10-28 15:07:02 - [MESSAGE][PASSED] - Object 'Object Repository/COVID19 homepage object/div_COVID-19 slider' is visible
+
+2020-10-28 15:07:02 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("GDA homepage object/div_GDA Marketplace slider"), 0): Web element with id: 'Object Repository/GDA homepage object/div_GDA Marketplace slider' located by 'By.xpath: //div[@id='panel-9bc12af0-450d-4bd4-9885-06872d06e650']' is not present after '30' second(s)
+
+2020-10-28 15:07:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-10-28 15:07:02 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/GDA homepage object/div_GDA Marketplace slider' located by 'By.xpath: //div[@id='panel-9bc12af0-450d-4bd4-9885-06872d06e650']' is not present after '30' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/COVID19/TC_UI_011" time="18.19" classname="Test Cases/COVID19/TC_UI_011" status="PASSED">
+         <system-out><![CDATA[2020-10-28 15:07:02 - [TEST_CASE][PASSED] - Test Cases/COVID19/TC_UI_011: Test Cases/COVID19/TC_UI_011
+
+2020-10-28 15:07:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UTILITIES/Open Marketplace COVID"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UTILITIES/Open Marketplace COVID' successfully
+
+2020-10-28 15:07:03 - [TEST_CASE][PASSED] - Test Cases/UTILITIES/Open Marketplace COVID: Test Cases/UTILITIES/Open Marketplace COVID
+
+2020-10-28 15:07:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-28 15:07:03 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-10-28 15:07:03 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-10-28 15:07:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-28 15:07:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-28 15:07:06 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://covid19staging.test-arcadier.com/' successfully
+
+2020-10-28 15:07:18 - [MESSAGE][PASSED] - Navigate to 'https://covid19staging.test-arcadier.com/' successfully
+
+2020-10-28 15:07:18 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UTILITIES/Open Marketplace COVID' successfully
+
+2020-10-28 15:07:18 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("COVID19 homepage object/div_COVID-19 Panel 1")): Object 'Object Repository/COVID19 homepage object/div_COVID-19 Panel 1' is visible
+
+2020-10-28 15:07:18 - [MESSAGE][PASSED] - Object 'Object Repository/COVID19 homepage object/div_COVID-19 Panel 1' is visible
+
+2020-10-28 15:07:18 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("COVID19 homepage object/a_Accept Cookies")): Object 'Object Repository/COVID19 homepage object/a_Accept Cookies' is visible
+
+2020-10-28 15:07:18 - [MESSAGE][PASSED] - Object 'Object Repository/COVID19 homepage object/a_Accept Cookies' is visible
+
+2020-10-28 15:07:18 - [TEST_STEP][PASSED] - click(findTestObject("COVID19 homepage object/a_Accept Cookies")): Object: 'Object Repository/COVID19 homepage object/a_Accept Cookies' is clicked on
+
+2020-10-28 15:07:19 - [MESSAGE][PASSED] - Object: 'Object Repository/COVID19 homepage object/a_Accept Cookies' is clicked on
+
+2020-10-28 15:07:19 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("COVID19 homepage object/div_COVID-19 Panel 2"), 0): Object 'Object Repository/COVID19 homepage object/div_COVID-19 Panel 2' is present
+
+2020-10-28 15:07:19 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-10-28 15:07:19 - [MESSAGE][PASSED] - Object 'Object Repository/COVID19 homepage object/div_COVID-19 Panel 2' is present
+
+2020-10-28 15:07:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("COVID19 homepage object/div_COVID-19 Panel 3")): Object 'Object Repository/COVID19 homepage object/div_COVID-19 Panel 3' is visible
+
+2020-10-28 15:07:19 - [MESSAGE][PASSED] - Object 'Object Repository/COVID19 homepage object/div_COVID-19 Panel 3' is visible
+
+2020-10-28 15:07:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("COVID19 homepage object/div_COVID-19 Panel 4")): Object 'Object Repository/COVID19 homepage object/div_COVID-19 Panel 4' is visible
+
+2020-10-28 15:07:20 - [MESSAGE][PASSED] - Object 'Object Repository/COVID19 homepage object/div_COVID-19 Panel 4' is visible
+
+2020-10-28 15:07:20 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("COVID19 homepage object/div_COVID-19 Panel 5")): Object 'Object Repository/COVID19 homepage object/div_COVID-19 Panel 5' is visible
+
+2020-10-28 15:07:20 - [MESSAGE][PASSED] - Object 'Object Repository/COVID19 homepage object/div_COVID-19 Panel 5' is visible
+
+2020-10-28 15:07:20 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("COVID19 homepage object/div_COVID-19 Panel 6")): Object 'Object Repository/COVID19 homepage object/div_COVID-19 Panel 6' is visible
+
+2020-10-28 15:07:21 - [MESSAGE][PASSED] - Object 'Object Repository/COVID19 homepage object/div_COVID-19 Panel 6' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/COVID19/TC_UI_012" time="14.675" classname="Test Cases/COVID19/TC_UI_012" status="PASSED">
+         <system-out><![CDATA[2020-10-28 15:07:21 - [TEST_CASE][PASSED] - Test Cases/COVID19/TC_UI_012: Test Cases/COVID19/TC_UI_012
+
+2020-10-28 15:07:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UTILITIES/Open Marketplace COVID"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UTILITIES/Open Marketplace COVID' successfully
+
+2020-10-28 15:07:21 - [TEST_CASE][PASSED] - Test Cases/UTILITIES/Open Marketplace COVID: Test Cases/UTILITIES/Open Marketplace COVID
+
+2020-10-28 15:07:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-28 15:07:21 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-10-28 15:07:22 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-10-28 15:07:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-28 15:07:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-28 15:07:24 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://covid19staging.test-arcadier.com/' successfully
+
+2020-10-28 15:07:33 - [MESSAGE][PASSED] - Navigate to 'https://covid19staging.test-arcadier.com/' successfully
+
+2020-10-28 15:07:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UTILITIES/Open Marketplace COVID' successfully
+
+2020-10-28 15:07:33 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("GDA homepage object/div_GDA Panel 1")): Object 'Object Repository/GDA homepage object/div_GDA Panel 1' is NOT visible
+
+2020-10-28 15:07:33 - [MESSAGE][PASSED] - Object 'Object Repository/GDA homepage object/div_GDA Panel 1' is NOT visible
+
+2020-10-28 15:07:33 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("GDA homepage object/div_GDA Panel2"), STOP_ON_FAILURE): Object 'Object Repository/GDA homepage object/div_GDA Panel2' is NOT visible
+
+2020-10-28 15:07:33 - [MESSAGE][PASSED] - Object 'Object Repository/GDA homepage object/div_GDA Panel2' is NOT visible
+
+2020-10-28 15:07:33 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("GDA homepage object/div_GDA Panel 3")): Object 'Object Repository/GDA homepage object/div_GDA Panel 3' is NOT visible
+
+2020-10-28 15:07:34 - [MESSAGE][PASSED] - Object 'Object Repository/GDA homepage object/div_GDA Panel 3' is NOT visible
+
+2020-10-28 15:07:34 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("GDA homepage object/div_GDA Panel 4")): Object 'Object Repository/GDA homepage object/div_GDA Panel 4' is NOT visible
+
+2020-10-28 15:07:34 - [MESSAGE][PASSED] - Object 'Object Repository/GDA homepage object/div_GDA Panel 4' is NOT visible
+
+2020-10-28 15:07:34 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("GDA homepage object/div_GDA Panel5"), STOP_ON_FAILURE): Object 'Object Repository/GDA homepage object/div_GDA Panel5' is NOT visible
+
+2020-10-28 15:07:34 - [MESSAGE][PASSED] - Object 'Object Repository/GDA homepage object/div_GDA Panel5' is NOT visible
+
+2020-10-28 15:07:34 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("GDA homepage object/div_GDA Panel 6")): Object 'Object Repository/GDA homepage object/div_GDA Panel 6' is NOT visible
+
+2020-10-28 15:07:35 - [MESSAGE][PASSED] - Object 'Object Repository/GDA homepage object/div_GDA Panel 6' is NOT visible
+
+2020-10-28 15:07:35 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("GDA homepage object/div_GDA Panel 7")): Object 'Object Repository/GDA homepage object/div_GDA Panel 7' is NOT visible
+
+2020-10-28 15:07:35 - [MESSAGE][PASSED] - Object 'Object Repository/GDA homepage object/div_GDA Panel 7' is NOT visible
+
+2020-10-28 15:07:35 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("GDA homepage object/div_GDA Panel 8")): Object 'Object Repository/GDA homepage object/div_GDA Panel 8' is NOT visible
+
+2020-10-28 15:07:35 - [MESSAGE][PASSED] - Object 'Object Repository/GDA homepage object/div_GDA Panel 8' is NOT visible
+
+2020-10-28 15:07:35 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("GDA homepage object/div_GDA Panel 9")): Object 'Object Repository/GDA homepage object/div_GDA Panel 9' is NOT visible
+
+2020-10-28 15:07:35 - [MESSAGE][PASSED] - Object 'Object Repository/GDA homepage object/div_GDA Panel 9' is NOT visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-10-28 15:04:12 - [TEST_SUITE][PASSED] - COVID19: Test Cases/COVID19/TC_UI_012]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

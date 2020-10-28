@@ -1,0 +1,713 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="COVID19" time="212.615" tests="12" failures="1" errors="0">
+   <testsuite name="COVID19" tests="12" failures="1" errors="0" time="212.615" timestamp="2020-10-28 14:42:27" hostname="Lexoter - DESKTOP-IJBB9BE" id="Test Suites/COVID19">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="K:\\Work\\GitHub\\find-common-custom-code\\Reports\\20201028_144216\\COVID19\\20201028_144216"/>
+         <property name="logFiles" value="K:\\Work\\GitHub\\find-common-custom-code\\Reports\\20201028_144216\\COVID19\\20201028_144216\\execution0.log"/>
+         <property name="attachments" value="K:\\Work\\GitHub\\find-common-custom-code\\Reports\\20201028_144216\\COVID19\\20201028_144216\\1603867541491.png, K:\\Work\\GitHub\\find-common-custom-code\\Reports\\20201028_144216\\COVID19\\20201028_144216\\1603867541609.png"/>
+         <property name="hostName" value="Lexoter - DESKTOP-IJBB9BE"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="7.6.6.205"/>
+         <property name="browser" value="Firefox 81.0"/>
+         <property name="hostAddress" value="192.168.56.1"/>
+         <property name="sessionId" value="5c36b7c5-c9f2-4580-ae45-fb00f1efadd4"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/COVID19/TC_UI_001" time="13.71" classname="Test Cases/COVID19/TC_UI_001" status="PASSED">
+         <system-out><![CDATA[2020-10-28 14:42:27 - [TEST_CASE][PASSED] - Test Cases/COVID19/TC_UI_001: Test Cases/COVID19/TC_UI_001
+
+2020-10-28 14:42:28 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UTILITIES/Open Marketplace COVID"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UTILITIES/Open Marketplace COVID' successfully
+
+2020-10-28 14:42:28 - [TEST_CASE][PASSED] - Test Cases/UTILITIES/Open Marketplace COVID: Test Cases/UTILITIES/Open Marketplace COVID
+
+2020-10-28 14:42:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-28 14:42:28 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-10-28 14:42:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-28 14:42:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-28 14:42:32 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://covid19staging.test-arcadier.com/' successfully
+
+2020-10-28 14:42:40 - [MESSAGE][PASSED] - Navigate to 'https://covid19staging.test-arcadier.com/' successfully
+
+2020-10-28 14:42:40 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UTILITIES/Open Marketplace COVID' successfully
+
+2020-10-28 14:42:40 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("COVID19 homepage object/input_Search bar")): Object 'Object Repository/COVID19 homepage object/input_Search bar' is visible
+
+2020-10-28 14:42:41 - [MESSAGE][PASSED] - Object 'Object Repository/COVID19 homepage object/input_Search bar' is visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/COVID19/TC_UI_002" time="14.283" classname="Test Cases/COVID19/TC_UI_002" status="PASSED">
+         <system-out><![CDATA[2020-10-28 14:42:41 - [TEST_CASE][PASSED] - Test Cases/COVID19/TC_UI_002: Test Cases/COVID19/TC_UI_002
+
+2020-10-28 14:42:41 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UTILITIES/Open Marketplace COVID"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UTILITIES/Open Marketplace COVID' successfully
+
+2020-10-28 14:42:41 - [TEST_CASE][PASSED] - Test Cases/UTILITIES/Open Marketplace COVID: Test Cases/UTILITIES/Open Marketplace COVID
+
+2020-10-28 14:42:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-28 14:42:41 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-10-28 14:42:42 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-10-28 14:42:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-28 14:42:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-28 14:42:45 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://covid19staging.test-arcadier.com/' successfully
+
+2020-10-28 14:42:55 - [MESSAGE][PASSED] - Navigate to 'https://covid19staging.test-arcadier.com/' successfully
+
+2020-10-28 14:42:55 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UTILITIES/Open Marketplace COVID' successfully
+
+2020-10-28 14:42:55 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("COVID19 homepage object/Be A Seller")): Object 'Object Repository/COVID19 homepage object/Be A Seller' is NOT visible
+
+2020-10-28 14:42:55 - [MESSAGE][PASSED] - Object 'Object Repository/COVID19 homepage object/Be A Seller' is NOT visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/COVID19/TC_UI_003" time="12.909" classname="Test Cases/COVID19/TC_UI_003" status="PASSED">
+         <system-out><![CDATA[2020-10-28 14:42:55 - [TEST_CASE][PASSED] - Test Cases/COVID19/TC_UI_003: Test Cases/COVID19/TC_UI_003
+
+2020-10-28 14:42:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UTILITIES/Open Marketplace COVID"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UTILITIES/Open Marketplace COVID' successfully
+
+2020-10-28 14:42:55 - [TEST_CASE][PASSED] - Test Cases/UTILITIES/Open Marketplace COVID: Test Cases/UTILITIES/Open Marketplace COVID
+
+2020-10-28 14:42:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-28 14:42:55 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-10-28 14:42:56 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-10-28 14:42:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-28 14:42:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-28 14:42:59 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://covid19staging.test-arcadier.com/' successfully
+
+2020-10-28 14:43:07 - [MESSAGE][PASSED] - Navigate to 'https://covid19staging.test-arcadier.com/' successfully
+
+2020-10-28 14:43:07 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UTILITIES/Open Marketplace COVID' successfully
+
+2020-10-28 14:43:07 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("COVID19 homepage object/Cart")): Object 'Object Repository/COVID19 homepage object/Cart' is NOT visible
+
+2020-10-28 14:43:08 - [MESSAGE][PASSED] - Object 'Object Repository/COVID19 homepage object/Cart' is NOT visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/COVID19/TC_UI_004" time="13.207" classname="Test Cases/COVID19/TC_UI_004" status="PASSED">
+         <system-out><![CDATA[2020-10-28 14:43:08 - [TEST_CASE][PASSED] - Test Cases/COVID19/TC_UI_004: Test Cases/COVID19/TC_UI_004
+
+2020-10-28 14:43:08 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UTILITIES/Open Marketplace COVID"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UTILITIES/Open Marketplace COVID' successfully
+
+2020-10-28 14:43:08 - [TEST_CASE][PASSED] - Test Cases/UTILITIES/Open Marketplace COVID: Test Cases/UTILITIES/Open Marketplace COVID
+
+2020-10-28 14:43:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-28 14:43:08 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-10-28 14:43:09 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-10-28 14:43:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-28 14:43:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-28 14:43:12 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://covid19staging.test-arcadier.com/' successfully
+
+2020-10-28 14:43:21 - [MESSAGE][PASSED] - Navigate to 'https://covid19staging.test-arcadier.com/' successfully
+
+2020-10-28 14:43:21 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UTILITIES/Open Marketplace COVID' successfully
+
+2020-10-28 14:43:21 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("COVID19 homepage object/Language")): Object 'Object Repository/COVID19 homepage object/Language' is NOT visible
+
+2020-10-28 14:43:21 - [MESSAGE][PASSED] - Object 'Object Repository/COVID19 homepage object/Language' is NOT visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/COVID19/TC_UI_005_COVID" time="13.487" classname="Test Cases/COVID19/TC_UI_005_COVID" status="PASSED">
+         <system-out><![CDATA[2020-10-28 14:43:21 - [TEST_CASE][PASSED] - Test Cases/COVID19/TC_UI_005_COVID: Test Cases/COVID19/TC_UI_005_COVID
+
+2020-10-28 14:43:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UTILITIES/Open Marketplace COVID"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UTILITIES/Open Marketplace COVID' successfully
+
+2020-10-28 14:43:21 - [TEST_CASE][PASSED] - Test Cases/UTILITIES/Open Marketplace COVID: Test Cases/UTILITIES/Open Marketplace COVID
+
+2020-10-28 14:43:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-28 14:43:21 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-10-28 14:43:22 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-10-28 14:43:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-28 14:43:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-28 14:43:25 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://covid19staging.test-arcadier.com/' successfully
+
+2020-10-28 14:43:33 - [MESSAGE][PASSED] - Navigate to 'https://covid19staging.test-arcadier.com/' successfully
+
+2020-10-28 14:43:33 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UTILITIES/Open Marketplace COVID' successfully
+
+2020-10-28 14:43:33 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("COVID19 homepage object/a_ANTIGEN (Ag)")): Object 'Object Repository/COVID19 homepage object/a_ANTIGEN (Ag)' is visible
+
+2020-10-28 14:43:34 - [MESSAGE][PASSED] - Object 'Object Repository/COVID19 homepage object/a_ANTIGEN (Ag)' is visible
+
+2020-10-28 14:43:34 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("COVID19 homepage object/a_ANTIGEN (Ag)"), "ANTIGEN (Ag)"): Actual text and expected text of test object 'Object Repository/COVID19 homepage object/a_ANTIGEN (Ag)' are matched.
+
+2020-10-28 14:43:34 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/COVID19 homepage object/a_ANTIGEN (Ag)' are matched.
+
+2020-10-28 14:43:34 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("COVID19 homepage object/a_ANTIGEN (Ag)")): Object 'Object Repository/COVID19 homepage object/a_ANTIGEN (Ag)' is clickable
+
+2020-10-28 14:43:34 - [MESSAGE][PASSED] - Object 'Object Repository/COVID19 homepage object/a_ANTIGEN (Ag)' is clickable
+
+2020-10-28 14:43:34 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("COVID19 homepage object/a_ANTIGEN (Ag)"), "href", "https://covid19staging.test-arcadier.com/User/Search?categoryid=785a3306-e5ca-4e9a-9fd1-ccd4b4a58b44", 0): Object 'Object Repository/COVID19 homepage object/a_ANTIGEN (Ag)' has attribute 'href' with value 'https://covid19staging.test-arcadier.com/User/Search?categoryid=785a3306-e5ca-4e9a-9fd1-ccd4b4a58b44'
+
+2020-10-28 14:43:35 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-10-28 14:43:35 - [MESSAGE][PASSED] - Object 'Object Repository/COVID19 homepage object/a_ANTIGEN (Ag)' has attribute 'href' with value 'https://covid19staging.test-arcadier.com/User/Search?categoryid=785a3306-e5ca-4e9a-9fd1-ccd4b4a58b44']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/COVID19/TC_UI_006_COVID" time="14.562" classname="Test Cases/COVID19/TC_UI_006_COVID" status="PASSED">
+         <system-out><![CDATA[2020-10-28 14:43:35 - [TEST_CASE][PASSED] - Test Cases/COVID19/TC_UI_006_COVID: Test Cases/COVID19/TC_UI_006_COVID
+
+2020-10-28 14:43:35 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UTILITIES/Open Marketplace COVID"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UTILITIES/Open Marketplace COVID' successfully
+
+2020-10-28 14:43:35 - [TEST_CASE][PASSED] - Test Cases/UTILITIES/Open Marketplace COVID: Test Cases/UTILITIES/Open Marketplace COVID
+
+2020-10-28 14:43:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-28 14:43:35 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-10-28 14:43:36 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-10-28 14:43:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-28 14:43:38 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-28 14:43:38 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://covid19staging.test-arcadier.com/' successfully
+
+2020-10-28 14:43:48 - [MESSAGE][PASSED] - Navigate to 'https://covid19staging.test-arcadier.com/' successfully
+
+2020-10-28 14:43:48 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UTILITIES/Open Marketplace COVID' successfully
+
+2020-10-28 14:43:48 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("COVID19 homepage object/a_ANTIBODY (Ab)")): Object 'Object Repository/COVID19 homepage object/a_ANTIBODY (Ab)' is visible
+
+2020-10-28 14:43:49 - [MESSAGE][PASSED] - Object 'Object Repository/COVID19 homepage object/a_ANTIBODY (Ab)' is visible
+
+2020-10-28 14:43:49 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("COVID19 homepage object/a_ANTIBODY (Ab)"), "ANTIBODY (Ab)"): Actual text and expected text of test object 'Object Repository/COVID19 homepage object/a_ANTIBODY (Ab)' are matched.
+
+2020-10-28 14:43:49 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/COVID19 homepage object/a_ANTIBODY (Ab)' are matched.
+
+2020-10-28 14:43:49 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("COVID19 homepage object/a_ANTIBODY (Ab)")): Object 'Object Repository/COVID19 homepage object/a_ANTIBODY (Ab)' is clickable
+
+2020-10-28 14:43:49 - [MESSAGE][PASSED] - Object 'Object Repository/COVID19 homepage object/a_ANTIBODY (Ab)' is clickable
+
+2020-10-28 14:43:49 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("COVID19 homepage object/a_ANTIBODY (Ab)"), "href", "https://covid19staging.test-arcadier.com/User/Search?categoryid=c38cf63e-58da-491b-a769-95ee473323f7", 0): Object 'Object Repository/COVID19 homepage object/a_ANTIBODY (Ab)' has attribute 'href' with value 'https://covid19staging.test-arcadier.com/User/Search?categoryid=c38cf63e-58da-491b-a769-95ee473323f7'
+
+2020-10-28 14:43:49 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-10-28 14:43:49 - [MESSAGE][PASSED] - Object 'Object Repository/COVID19 homepage object/a_ANTIBODY (Ab)' has attribute 'href' with value 'https://covid19staging.test-arcadier.com/User/Search?categoryid=c38cf63e-58da-491b-a769-95ee473323f7']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/COVID19/TC_UI_007_COVID" time="13.585" classname="Test Cases/COVID19/TC_UI_007_COVID" status="PASSED">
+         <system-out><![CDATA[2020-10-28 14:43:49 - [TEST_CASE][PASSED] - Test Cases/COVID19/TC_UI_007_COVID: Test Cases/COVID19/TC_UI_007_COVID
+
+2020-10-28 14:43:49 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UTILITIES/Open Marketplace COVID"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UTILITIES/Open Marketplace COVID' successfully
+
+2020-10-28 14:43:50 - [TEST_CASE][PASSED] - Test Cases/UTILITIES/Open Marketplace COVID: Test Cases/UTILITIES/Open Marketplace COVID
+
+2020-10-28 14:43:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-28 14:43:50 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-10-28 14:43:50 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-10-28 14:43:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-28 14:43:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-28 14:43:53 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://covid19staging.test-arcadier.com/' successfully
+
+2020-10-28 14:44:02 - [MESSAGE][PASSED] - Navigate to 'https://covid19staging.test-arcadier.com/' successfully
+
+2020-10-28 14:44:02 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UTILITIES/Open Marketplace COVID' successfully
+
+2020-10-28 14:44:02 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("COVID19 homepage object/a_MOLECULAR ASSAYS (NAT)")): Object 'Object Repository/COVID19 homepage object/a_MOLECULAR ASSAYS (NAT)' is visible
+
+2020-10-28 14:44:02 - [MESSAGE][PASSED] - Object 'Object Repository/COVID19 homepage object/a_MOLECULAR ASSAYS (NAT)' is visible
+
+2020-10-28 14:44:02 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("COVID19 homepage object/a_MOLECULAR ASSAYS (NAT)"), "MOLECULAR ASSAYS (NAT)"): Actual text and expected text of test object 'Object Repository/COVID19 homepage object/a_MOLECULAR ASSAYS (NAT)' are matched.
+
+2020-10-28 14:44:02 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/COVID19 homepage object/a_MOLECULAR ASSAYS (NAT)' are matched.
+
+2020-10-28 14:44:02 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("COVID19 homepage object/a_MOLECULAR ASSAYS (NAT)")): Object 'Object Repository/COVID19 homepage object/a_MOLECULAR ASSAYS (NAT)' is clickable
+
+2020-10-28 14:44:03 - [MESSAGE][PASSED] - Object 'Object Repository/COVID19 homepage object/a_MOLECULAR ASSAYS (NAT)' is clickable
+
+2020-10-28 14:44:03 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("COVID19 homepage object/a_MOLECULAR ASSAYS (NAT)"), "href", "https://covid19staging.test-arcadier.com/User/Search?categoryid=94241017-649d-4021-a946-ffd1a23800d6", 0): Object 'Object Repository/COVID19 homepage object/a_MOLECULAR ASSAYS (NAT)' has attribute 'href' with value 'https://covid19staging.test-arcadier.com/User/Search?categoryid=94241017-649d-4021-a946-ffd1a23800d6'
+
+2020-10-28 14:44:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-10-28 14:44:03 - [MESSAGE][PASSED] - Object 'Object Repository/COVID19 homepage object/a_MOLECULAR ASSAYS (NAT)' has attribute 'href' with value 'https://covid19staging.test-arcadier.com/User/Search?categoryid=94241017-649d-4021-a946-ffd1a23800d6']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/COVID19/TC_UI_008_COVID" time="17.807" classname="Test Cases/COVID19/TC_UI_008_COVID" status="PASSED">
+         <system-out><![CDATA[2020-10-28 14:44:03 - [TEST_CASE][PASSED] - Test Cases/COVID19/TC_UI_008_COVID: Test Cases/COVID19/TC_UI_008_COVID
+
+2020-10-28 14:44:03 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UTILITIES/Open Marketplace COVID"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UTILITIES/Open Marketplace COVID' successfully
+
+2020-10-28 14:44:03 - [TEST_CASE][PASSED] - Test Cases/UTILITIES/Open Marketplace COVID: Test Cases/UTILITIES/Open Marketplace COVID
+
+2020-10-28 14:44:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-28 14:44:03 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-10-28 14:44:04 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-10-28 14:44:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-28 14:44:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-28 14:44:07 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://covid19staging.test-arcadier.com/' successfully
+
+2020-10-28 14:44:19 - [MESSAGE][PASSED] - Navigate to 'https://covid19staging.test-arcadier.com/' successfully
+
+2020-10-28 14:44:19 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UTILITIES/Open Marketplace COVID' successfully
+
+2020-10-28 14:44:19 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("COVID19 homepage object/a_SELF-COLLECTION KIT")): Object 'Object Repository/COVID19 homepage object/a_SELF-COLLECTION KIT' is visible
+
+2020-10-28 14:44:20 - [MESSAGE][PASSED] - Object 'Object Repository/COVID19 homepage object/a_SELF-COLLECTION KIT' is visible
+
+2020-10-28 14:44:20 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("COVID19 homepage object/a_SELF-COLLECTION KIT"), "SELF-COLLECTION KIT"): Actual text and expected text of test object 'Object Repository/COVID19 homepage object/a_SELF-COLLECTION KIT' are matched.
+
+2020-10-28 14:44:20 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/COVID19 homepage object/a_SELF-COLLECTION KIT' are matched.
+
+2020-10-28 14:44:20 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("COVID19 homepage object/a_SELF-COLLECTION KIT")): Object 'Object Repository/COVID19 homepage object/a_SELF-COLLECTION KIT' is clickable
+
+2020-10-28 14:44:20 - [MESSAGE][PASSED] - Object 'Object Repository/COVID19 homepage object/a_SELF-COLLECTION KIT' is clickable
+
+2020-10-28 14:44:20 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("COVID19 homepage object/a_SELF-COLLECTION KIT"), "href", "https://covid19staging.test-arcadier.com/User/Search?categoryid=ec159711-7e06-4fc2-ab0c-4e8fadd132a0", 0): Object 'Object Repository/COVID19 homepage object/a_SELF-COLLECTION KIT' has attribute 'href' with value 'https://covid19staging.test-arcadier.com/User/Search?categoryid=ec159711-7e06-4fc2-ab0c-4e8fadd132a0'
+
+2020-10-28 14:44:20 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-10-28 14:44:21 - [MESSAGE][PASSED] - Object 'Object Repository/COVID19 homepage object/a_SELF-COLLECTION KIT' has attribute 'href' with value 'https://covid19staging.test-arcadier.com/User/Search?categoryid=ec159711-7e06-4fc2-ab0c-4e8fadd132a0']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/COVID19/TC_UI_009_COVID" time="19.601" classname="Test Cases/COVID19/TC_UI_009_COVID" status="PASSED">
+         <system-out><![CDATA[2020-10-28 14:44:21 - [TEST_CASE][PASSED] - Test Cases/COVID19/TC_UI_009_COVID: Test Cases/COVID19/TC_UI_009_COVID
+
+2020-10-28 14:44:21 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UTILITIES/Open Marketplace COVID"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UTILITIES/Open Marketplace COVID' successfully
+
+2020-10-28 14:44:21 - [TEST_CASE][PASSED] - Test Cases/UTILITIES/Open Marketplace COVID: Test Cases/UTILITIES/Open Marketplace COVID
+
+2020-10-28 14:44:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-28 14:44:21 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-10-28 14:44:22 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-10-28 14:44:22 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-28 14:44:24 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-28 14:44:24 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://covid19staging.test-arcadier.com/' successfully
+
+2020-10-28 14:44:39 - [MESSAGE][PASSED] - Navigate to 'https://covid19staging.test-arcadier.com/' successfully
+
+2020-10-28 14:44:39 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UTILITIES/Open Marketplace COVID' successfully
+
+2020-10-28 14:44:39 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("COVID19 homepage object/a_SEQUENCING")): Object 'Object Repository/COVID19 homepage object/a_SEQUENCING' is visible
+
+2020-10-28 14:44:40 - [MESSAGE][PASSED] - Object 'Object Repository/COVID19 homepage object/a_SEQUENCING' is visible
+
+2020-10-28 14:44:40 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("COVID19 homepage object/a_SEQUENCING"), "SEQUENCING"): Actual text and expected text of test object 'Object Repository/COVID19 homepage object/a_SEQUENCING' are matched.
+
+2020-10-28 14:44:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/COVID19 homepage object/a_SEQUENCING' are matched.
+
+2020-10-28 14:44:40 - [TEST_STEP][PASSED] - verifyElementClickable(findTestObject("COVID19 homepage object/a_SEQUENCING")): Object 'Object Repository/COVID19 homepage object/a_SEQUENCING' is clickable
+
+2020-10-28 14:44:40 - [MESSAGE][PASSED] - Object 'Object Repository/COVID19 homepage object/a_SEQUENCING' is clickable
+
+2020-10-28 14:44:40 - [TEST_STEP][PASSED] - verifyElementAttributeValue(findTestObject("COVID19 homepage object/a_SEQUENCING"), "href", "https://covid19staging.test-arcadier.com/User/Search?categoryid=882590c5-866c-4af5-b279-92b3af363362", 0): Object 'Object Repository/COVID19 homepage object/a_SEQUENCING' has attribute 'href' with value 'https://covid19staging.test-arcadier.com/User/Search?categoryid=882590c5-866c-4af5-b279-92b3af363362'
+
+2020-10-28 14:44:40 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-10-28 14:44:40 - [MESSAGE][PASSED] - Object 'Object Repository/COVID19 homepage object/a_SEQUENCING' has attribute 'href' with value 'https://covid19staging.test-arcadier.com/User/Search?categoryid=882590c5-866c-4af5-b279-92b3af363362']]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/COVID19/TC_UI_010" time="14.684" classname="Test Cases/COVID19/TC_UI_010" status="PASSED">
+         <system-out><![CDATA[2020-10-28 14:44:40 - [TEST_CASE][PASSED] - Test Cases/COVID19/TC_UI_010: Test Cases/COVID19/TC_UI_010
+
+2020-10-28 14:44:40 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UTILITIES/Open Marketplace COVID"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UTILITIES/Open Marketplace COVID' successfully
+
+2020-10-28 14:44:41 - [TEST_CASE][PASSED] - Test Cases/UTILITIES/Open Marketplace COVID: Test Cases/UTILITIES/Open Marketplace COVID
+
+2020-10-28 14:44:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-28 14:44:41 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-10-28 14:44:41 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-10-28 14:44:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-28 14:44:44 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-28 14:44:44 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://covid19staging.test-arcadier.com/' successfully
+
+2020-10-28 14:44:54 - [MESSAGE][PASSED] - Navigate to 'https://covid19staging.test-arcadier.com/' successfully
+
+2020-10-28 14:44:54 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UTILITIES/Open Marketplace COVID' successfully
+
+2020-10-28 14:44:54 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("COVID19 homepage object/div_COVID-19 slider")): Object 'Object Repository/COVID19 homepage object/div_COVID-19 slider' is visible
+
+2020-10-28 14:44:55 - [MESSAGE][PASSED] - Object 'Object Repository/COVID19 homepage object/div_COVID-19 slider' is visible
+
+2020-10-28 14:44:55 - [TEST_STEP][PASSED] - verifyElementNotPresent(findTestObject("GDA homepage object/div_GDA Marketplace slider"), 0): Web element with id: 'Object Repository/GDA homepage object/div_GDA Marketplace slider' located by 'By.xpath: //div[@id='panel-9bc12af0-450d-4bd4-9885-06872d06e650']' is not present after '30' second(s)
+
+2020-10-28 14:44:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-10-28 14:44:55 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/GDA homepage object/div_GDA Marketplace slider' located by 'By.xpath: //div[@id='panel-9bc12af0-450d-4bd4-9885-06872d06e650']' is not present after '30' second(s)]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/COVID19/TC_UI_011" time="46.205" classname="Test Cases/COVID19/TC_UI_011" status="FAILED">
+         <failure type="FAILED" message="Test Cases/COVID19/TC_UI_011 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/COVID19 homepage object/div_COVID-19 Panel 2' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$8.call(Unknown Source)
+	at TC_UI_011.run(TC_UI_011:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1603867336047.run(TempTestSuite1603867336047.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/COVID19 homepage object/div_COVID-19 Panel 2' located by '//*[@id = 'panel-685af31d-3fb1-4e87-92bd-757e2ccb25a9_6464' and (text() = 'SEARCH Search through a centralised catalogue of COVID19 tests that have been independently &amp; FIND evaluated.FILTER Refine search results to suite your specifications, based on technical details or regulatory approvals.PROCURE Procure the products you want from the agencies you are part of using your available funding sources.' or . = 'SEARCH Search through a centralised catalogue of COVID19 tests that have been independently &amp; FIND evaluated.FILTER Refine search results to suite your specifications, based on technical details or regulatory approvals.PROCURE Procure the products you want from the agencies you are part of using your available funding sources.')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2020-10-28 14:44:55 - [TEST_CASE][FAILED] - Test Cases/COVID19/TC_UI_011: Test Cases/COVID19/TC_UI_011 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/COVID19 homepage object/div_COVID-19 Panel 2' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$8.call(Unknown Source)
+	at TC_UI_011.run(TC_UI_011:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1603867336047.run(TempTestSuite1603867336047.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/COVID19 homepage object/div_COVID-19 Panel 2' located by '//*[@id = 'panel-685af31d-3fb1-4e87-92bd-757e2ccb25a9_6464' and (text() = 'SEARCH Search through a centralised catalogue of COVID19 tests that have been independently & FIND evaluated.FILTER Refine search results to suite your specifications, based on technical details or regulatory approvals.PROCURE Procure the products you want from the agencies you are part of using your available funding sources.' or . = 'SEARCH Search through a centralised catalogue of COVID19 tests that have been independently & FIND evaluated.FILTER Refine search results to suite your specifications, based on technical details or regulatory approvals.PROCURE Procure the products you want from the agencies you are part of using your available funding sources.')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2020-10-28 14:44:55 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UTILITIES/Open Marketplace COVID"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UTILITIES/Open Marketplace COVID' successfully
+
+2020-10-28 14:44:55 - [TEST_CASE][PASSED] - Test Cases/UTILITIES/Open Marketplace COVID: Test Cases/UTILITIES/Open Marketplace COVID
+
+2020-10-28 14:44:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-28 14:44:55 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-10-28 14:44:56 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-10-28 14:44:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-28 14:44:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-28 14:44:59 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://covid19staging.test-arcadier.com/' successfully
+
+2020-10-28 14:45:08 - [MESSAGE][PASSED] - Navigate to 'https://covid19staging.test-arcadier.com/' successfully
+
+2020-10-28 14:45:08 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UTILITIES/Open Marketplace COVID' successfully
+
+2020-10-28 14:45:08 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("COVID19 homepage object/div_COVID-19 Panel 1")): Object 'Object Repository/COVID19 homepage object/div_COVID-19 Panel 1' is visible
+
+2020-10-28 14:45:09 - [MESSAGE][PASSED] - Object 'Object Repository/COVID19 homepage object/div_COVID-19 Panel 1' is visible
+
+2020-10-28 14:45:09 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("COVID19 homepage object/a_Accept Cookies")): Object 'Object Repository/COVID19 homepage object/a_Accept Cookies' is visible
+
+2020-10-28 14:45:09 - [MESSAGE][PASSED] - Object 'Object Repository/COVID19 homepage object/a_Accept Cookies' is visible
+
+2020-10-28 14:45:09 - [TEST_STEP][PASSED] - click(findTestObject("COVID19 homepage object/a_Accept Cookies")): Object: 'Object Repository/COVID19 homepage object/a_Accept Cookies' is clicked on
+
+2020-10-28 14:45:10 - [MESSAGE][PASSED] - Object: 'Object Repository/COVID19 homepage object/a_Accept Cookies' is clicked on
+
+2020-10-28 14:45:10 - [TEST_STEP][FAILED] - verifyElementPresent(findTestObject("COVID19 homepage object/div_COVID-19 Panel 2"), 0): Unable to verify object 'Object Repository/COVID19 homepage object/div_COVID-19 Panel 2' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/COVID19 homepage object/div_COVID-19 Panel 2' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$8.call(Unknown Source)
+	at TC_UI_011.run(TC_UI_011:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1603867336047.run(TempTestSuite1603867336047.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/COVID19 homepage object/div_COVID-19 Panel 2' located by '//*[@id = 'panel-685af31d-3fb1-4e87-92bd-757e2ccb25a9_6464' and (text() = 'SEARCH Search through a centralised catalogue of COVID19 tests that have been independently & FIND evaluated.FILTER Refine search results to suite your specifications, based on technical details or regulatory approvals.PROCURE Procure the products you want from the agencies you are part of using your available funding sources.' or . = 'SEARCH Search through a centralised catalogue of COVID19 tests that have been independently & FIND evaluated.FILTER Refine search results to suite your specifications, based on technical details or regulatory approvals.PROCURE Procure the products you want from the agencies you are part of using your available funding sources.')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+
+2020-10-28 14:45:10 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2020-10-28 14:45:41 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //*[@id = 'panel-685af31d-3fb1-4e87-92bd-757e2ccb25a9_6464' and (text() = 'SEARCH Search through a centralised catalogue of COVID19 tests that have been independently & FIND evaluated.FILTER Refine search results to suite your specifications, based on technical details or regulatory approvals.PROCURE Procure the products you want from the agencies you are part of using your available funding sources.' or . = 'SEARCH Search through a centralised catalogue of COVID19 tests that have been independently & FIND evaluated.FILTER Refine search results to suite your specifications, based on technical details or regulatory approvals.PROCURE Procure the products you want from the agencies you are part of using your available funding sources.')]'. Please recheck the objects properties to make sure the desired element is located. 
+
+2020-10-28 14:45:41 - [MESSAGE][FAILED] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/COVID19 homepage object/div_COVID-19 Panel 2' located by '//*[@id = 'panel-685af31d-3fb1-4e87-92bd-757e2ccb25a9_6464' and (text() = 'SEARCH Search through a centralised catalogue of COVID19 tests that have been independently & FIND evaluated.FILTER Refine search results to suite your specifications, based on technical details or regulatory approvals.PROCURE Procure the products you want from the agencies you are part of using your available funding sources.' or . = 'SEARCH Search through a centralised catalogue of COVID19 tests that have been independently & FIND evaluated.FILTER Refine search results to suite your specifications, based on technical details or regulatory approvals.PROCURE Procure the products you want from the agencies you are part of using your available funding sources.')]' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/COVID19 homepage object/div_COVID-19 Panel 2' located by '//*[@id = 'panel-685af31d-3fb1-4e87-92bd-757e2ccb25a9_6464' and (text() = 'SEARCH Search through a centralised catalogue of COVID19 tests that have been independently & FIND evaluated.FILTER Refine search results to suite your specifications, based on technical details or regulatory approvals.PROCURE Procure the products you want from the agencies you are part of using your available funding sources.' or . = 'SEARCH Search through a centralised catalogue of COVID19 tests that have been independently & FIND evaluated.FILTER Refine search results to suite your specifications, based on technical details or regulatory approvals.PROCURE Procure the products you want from the agencies you are part of using your available funding sources.')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$8.call(Unknown Source)
+	at TC_UI_011.run(TC_UI_011:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1603867336047.run(TempTestSuite1603867336047.groovy:39)
+)
+[[ATTACHMENT|K:\\Work\\GitHub\\find-common-custom-code\\Reports\\20201028_144216\\COVID19\\20201028_144216\\1603867541491.png]]
+
+2020-10-28 14:45:41 - [MESSAGE][FAILED] - Unable to verify object 'Object Repository/COVID19 homepage object/div_COVID-19 Panel 2' is present (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/COVID19 homepage object/div_COVID-19 Panel 2' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$8.call(Unknown Source)
+	at TC_UI_011.run(TC_UI_011:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1603867336047.run(TempTestSuite1603867336047.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/COVID19 homepage object/div_COVID-19 Panel 2' located by '//*[@id = 'panel-685af31d-3fb1-4e87-92bd-757e2ccb25a9_6464' and (text() = 'SEARCH Search through a centralised catalogue of COVID19 tests that have been independently & FIND evaluated.FILTER Refine search results to suite your specifications, based on technical details or regulatory approvals.PROCURE Procure the products you want from the agencies you are part of using your available funding sources.' or . = 'SEARCH Search through a centralised catalogue of COVID19 tests that have been independently & FIND evaluated.FILTER Refine search results to suite your specifications, based on technical details or regulatory approvals.PROCURE Procure the products you want from the agencies you are part of using your available funding sources.')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+)
+[[ATTACHMENT|K:\\Work\\GitHub\\find-common-custom-code\\Reports\\20201028_144216\\COVID19\\20201028_144216\\1603867541609.png]]]]></system-out>
+         <system-err><![CDATA[2020-10-28 14:44:55 - [TEST_CASE][FAILED] - Test Cases/COVID19/TC_UI_011: Test Cases/COVID19/TC_UI_011 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/COVID19 homepage object/div_COVID-19 Panel 2' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$8.call(Unknown Source)
+	at TC_UI_011.run(TC_UI_011:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1603867336047.run(TempTestSuite1603867336047.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/COVID19 homepage object/div_COVID-19 Panel 2' located by '//*[@id = 'panel-685af31d-3fb1-4e87-92bd-757e2ccb25a9_6464' and (text() = 'SEARCH Search through a centralised catalogue of COVID19 tests that have been independently & FIND evaluated.FILTER Refine search results to suite your specifications, based on technical details or regulatory approvals.PROCURE Procure the products you want from the agencies you are part of using your available funding sources.' or . = 'SEARCH Search through a centralised catalogue of COVID19 tests that have been independently & FIND evaluated.FILTER Refine search results to suite your specifications, based on technical details or regulatory approvals.PROCURE Procure the products you want from the agencies you are part of using your available funding sources.')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/COVID19/TC_UI_012" time="17.57" classname="Test Cases/COVID19/TC_UI_012" status="PASSED">
+         <system-out><![CDATA[2020-10-28 14:45:41 - [TEST_CASE][PASSED] - Test Cases/COVID19/TC_UI_012: Test Cases/COVID19/TC_UI_012
+
+2020-10-28 14:45:41 - [TEST_STEP][PASSED] - callTestCase(findTestCase("UTILITIES/Open Marketplace COVID"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/UTILITIES/Open Marketplace COVID' successfully
+
+2020-10-28 14:45:41 - [TEST_CASE][PASSED] - Test Cases/UTILITIES/Open Marketplace COVID: Test Cases/UTILITIES/Open Marketplace COVID
+
+2020-10-28 14:45:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2020-10-28 14:45:41 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2020-10-28 14:45:42 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2020-10-28 14:45:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2020-10-28 14:45:45 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2020-10-28 14:45:45 - [TEST_STEP][PASSED] - navigateToUrl(url): Navigate to 'https://covid19staging.test-arcadier.com/' successfully
+
+2020-10-28 14:45:56 - [MESSAGE][PASSED] - Navigate to 'https://covid19staging.test-arcadier.com/' successfully
+
+2020-10-28 14:45:56 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/UTILITIES/Open Marketplace COVID' successfully
+
+2020-10-28 14:45:56 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("GDA homepage object/div_GDA Panel 1")): Object 'Object Repository/GDA homepage object/div_GDA Panel 1' is NOT visible
+
+2020-10-28 14:45:57 - [MESSAGE][PASSED] - Object 'Object Repository/GDA homepage object/div_GDA Panel 1' is NOT visible
+
+2020-10-28 14:45:57 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("GDA homepage object/div_GDA Panel2"), STOP_ON_FAILURE): Object 'Object Repository/GDA homepage object/div_GDA Panel2' is NOT visible
+
+2020-10-28 14:45:57 - [MESSAGE][PASSED] - Object 'Object Repository/GDA homepage object/div_GDA Panel2' is NOT visible
+
+2020-10-28 14:45:57 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("GDA homepage object/div_GDA Panel 3")): Object 'Object Repository/GDA homepage object/div_GDA Panel 3' is NOT visible
+
+2020-10-28 14:45:57 - [MESSAGE][PASSED] - Object 'Object Repository/GDA homepage object/div_GDA Panel 3' is NOT visible
+
+2020-10-28 14:45:57 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("GDA homepage object/div_GDA Panel 4")): Object 'Object Repository/GDA homepage object/div_GDA Panel 4' is NOT visible
+
+2020-10-28 14:45:57 - [MESSAGE][PASSED] - Object 'Object Repository/GDA homepage object/div_GDA Panel 4' is NOT visible
+
+2020-10-28 14:45:57 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("GDA homepage object/div_GDA Panel5"), STOP_ON_FAILURE): Object 'Object Repository/GDA homepage object/div_GDA Panel5' is NOT visible
+
+2020-10-28 14:45:58 - [MESSAGE][PASSED] - Object 'Object Repository/GDA homepage object/div_GDA Panel5' is NOT visible
+
+2020-10-28 14:45:58 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("GDA homepage object/div_GDA Panel 6")): Object 'Object Repository/GDA homepage object/div_GDA Panel 6' is NOT visible
+
+2020-10-28 14:45:58 - [MESSAGE][PASSED] - Object 'Object Repository/GDA homepage object/div_GDA Panel 6' is NOT visible
+
+2020-10-28 14:45:58 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("GDA homepage object/div_GDA Panel 7")): Object 'Object Repository/GDA homepage object/div_GDA Panel 7' is NOT visible
+
+2020-10-28 14:45:58 - [MESSAGE][PASSED] - Object 'Object Repository/GDA homepage object/div_GDA Panel 7' is NOT visible
+
+2020-10-28 14:45:58 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("GDA homepage object/div_GDA Panel 8")): Object 'Object Repository/GDA homepage object/div_GDA Panel 8' is NOT visible
+
+2020-10-28 14:45:59 - [MESSAGE][PASSED] - Object 'Object Repository/GDA homepage object/div_GDA Panel 8' is NOT visible
+
+2020-10-28 14:45:59 - [TEST_STEP][PASSED] - verifyElementNotVisible(findTestObject("GDA homepage object/div_GDA Panel 9")): Object 'Object Repository/GDA homepage object/div_GDA Panel 9' is NOT visible
+
+2020-10-28 14:45:59 - [MESSAGE][PASSED] - Object 'Object Repository/GDA homepage object/div_GDA Panel 9' is NOT visible]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2020-10-28 14:42:27 - [TEST_SUITE][FAILED] - COVID19: Test Cases/COVID19/TC_UI_011 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/COVID19 homepage object/div_COVID-19 Panel 2' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$8.call(Unknown Source)
+	at TC_UI_011.run(TC_UI_011:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1603867336047.run(TempTestSuite1603867336047.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/COVID19 homepage object/div_COVID-19 Panel 2' located by '//*[@id = 'panel-685af31d-3fb1-4e87-92bd-757e2ccb25a9_6464' and (text() = 'SEARCH Search through a centralised catalogue of COVID19 tests that have been independently & FIND evaluated.FILTER Refine search results to suite your specifications, based on technical details or regulatory approvals.PROCURE Procure the products you want from the agencies you are part of using your available funding sources.' or . = 'SEARCH Search through a centralised catalogue of COVID19 tests that have been independently & FIND evaluated.FILTER Refine search results to suite your specifications, based on technical details or regulatory approvals.PROCURE Procure the products you want from the agencies you are part of using your available funding sources.')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2020-10-28 14:42:27 - [TEST_SUITE][FAILED] - COVID19: Test Cases/COVID19/TC_UI_011 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify object 'Object Repository/COVID19 homepage object/div_COVID-19 Panel 2' is present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:73)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1460)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$verifyElementPresent$8.call(Unknown Source)
+	at TC_UI_011.run(TC_UI_011:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:339)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:330)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:309)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:301)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:235)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:191)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:141)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:90)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1603867336047.run(TempTestSuite1603867336047.groovy:39)
+Caused by: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/COVID19 homepage object/div_COVID-19 Panel 2' located by '//*[@id = 'panel-685af31d-3fb1-4e87-92bd-757e2ccb25a9_6464' and (text() = 'SEARCH Search through a centralised catalogue of COVID19 tests that have been independently & FIND evaluated.FILTER Refine search results to suite your specifications, based on technical details or regulatory approvals.PROCURE Procure the products you want from the agencies you are part of using your available funding sources.' or . = 'SEARCH Search through a centralised catalogue of COVID19 tests that have been independently & FIND evaluated.FILTER Refine search results to suite your specifications, based on technical details or regulatory approvals.PROCURE Procure the products you want from the agencies you are part of using your available funding sources.')]' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

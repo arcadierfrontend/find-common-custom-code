@@ -19,7 +19,11 @@ WebUI.callTestCase(findTestCase('UTILITIES/Open Marketplace COVID'), [:], Failur
 
 WebUI.verifyElementVisible(findTestObject('COVID19 homepage object/div_COVID-19 Panel 1'))
 
-WebUI.verifyElementVisible(findTestObject('COVID19 homepage object/div_COVID-19 Panel 2'))
+WebUI.verifyElementVisible(findTestObject('COVID19 homepage object/a_Accept Cookies'))
+
+WebUI.click(findTestObject('COVID19 homepage object/a_Accept Cookies'))
+
+WebUI.verifyElementPresent(findTestObject('COVID19 homepage object/div_COVID-19 Panel 2'), 0)
 
 WebUI.verifyElementVisible(findTestObject('COVID19 homepage object/div_COVID-19 Panel 3'))
 
